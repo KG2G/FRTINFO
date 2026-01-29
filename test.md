@@ -165,11 +165,9 @@ AR-15 556/9mm/22lr pretty much every caliber
 
 
 ## **AP53** 
-- ASDesigns is working on two options; Requires Seperate lower.
-	└ Footage: https://kg2g.github.io/FRTINFO/Footage/AP53.mp4 - @s3igu2 on x.com
+- ASDesigns is working on two options; Requires Seperate lower. | [**Footage by @s3igu2 on x.com**](https://kg2g.github.io/FRTINFO/Footage/AP53.mp4)
 - ASDesigns is also working on a drop in varient that works in stardard HK lowers.
-- Parabellum Combat Systems is also working on a drop in varient that works in stardard lowers.
-	└ Footage: https://youtu.be/jw7RiAgzTFY
+- Parabellum Combat Systems is also working on a drop in varient that works in stardard lowers. | [**Footage**](https://youtu.be/jw7RiAgzTFY)
 
 ## **HK G3/91**
 - ASDesigns is working on a drop in varient that works in stardard OEM lowers.
@@ -178,39 +176,31 @@ AR-15 556/9mm/22lr pretty much every caliber
 - ASDesigns is working on it.
 
 ## **CMMG Dissent platform** 
-- ASDesigns is working on it.
-- Requires Seperate lower.
-	└ Footage: https://kg2g.github.io/FRTINFO/Footage/CMMGDISSENT.mp4 - @_009515 on x.com
+- ASDesigns is working on it; Requires Seperate lower. | [**Footage by @_009515 on x.com**](https://kg2g.github.io/FRTINFO/Footage/CMMGDISSENT.mp4)
 
 ## **Stribog platform** 
 - Some people have got this to work with a super safety and ARC with Lingle lower. This seems to require a cut in the upper
-- ASDesigns is working on a different option, which requires a seperate lower
-	└ Footage: https://kg2g.github.io/FRTINFO/Footage/STRIBOG.mp4 - @_009515 on x.com
+- ASDesigns is working on a different option, which requires a seperate lower | [**Footage by @_009515 on x.com**](https://kg2g.github.io/FRTINFO/Footage/STRIBOG.mp4)
 
 ## **CZ Scorpion**
-- Nexus Firearms is working on it to allow function with the Rarebreed trigger.
-	└ Footage: https://youtu.be/RsGceOia_D4
+- Nexus Firearms is working on it to allow function with the Rarebreed trigger. | [**Footage**](https://youtu.be/RsGceOia_D4)
 - Teased by Duality Arms Co
 
 ## **HK UMP (HKP Kit/S5 Tactical, Clones, and USC conversions)**
 - ASDesigns is working on it.
 
 ## **Beretta Cx4** 
-- Developed by Brello Solutions.
-	└ Footage: https://kg2g.github.io/FRTINFO/Footage/Beretta-CX4.mp4 - @brellosolutions.us on instagram.com
+- Developed by Brello Solutions. | [**Footage by @brellosolutions.us on instagram.com**](https://kg2g.github.io/FRTINFO/Footage/Beretta-CX4.mp4)
 
 ## **CZ BREN 2** 
-- Nexus Firearms is working on it to allow function with the Rarebreed trigger, this is a separate lower.
-	└ Footage: https://kg2g.github.io/FRTINFO/Footage/CZBREN2.mp4
+- Nexus Firearms is working on it to allow function with the Rarebreed trigger, this is a separate lower. | [**Footage**](https://kg2g.github.io/FRTINFO/Footage/CZBREN2.mp4)
 
 ## **SIG P320**
-- There seems to be two solutions for this, an anon in the thread has a working model that's selectable and also is waiting for an ATF letter. 
-	└ Footage: https://kg2g.github.io/FRTINFO/Footage/P320.mp4 - @Fish_Will_Roll on YT
+- There seems to be two solutions for this, an anon in the thread has a working model that's selectable and also is waiting for an ATF letter. | [**Footage by @Fish_Will_Roll on YT**](https://kg2g.github.io/FRTINFO/Footage/P320.mp4)
 - The other solution is teased by Duality Arms Co.
 
 ## **FN M249S** 
-- ASDesigns is working on it; Requires seperate lower
-	└ Footage: https://kg2g.github.io/FRTINFO/Footage/M249.mp4 - @s3igu2 on x.com
+- ASDesigns is working on it; Requires seperate lower | [**Footage by @s3igu2 on x.com**](https://kg2g.github.io/FRTINFO/Footage/M249.mp4)
 
 ## **B&T TP9** 
 - Duality Arms Co is working on a solution
@@ -225,44 +215,29 @@ AR-15 556/9mm/22lr pretty much every caliber
 - This was mentioned in a thread, no public information is released.
 
 ## **Matador Arms AR9 uppers**
-- Matador Arms is working on a trip to allow for atrius selector usage.
-	└ Footage: https://kg2g.github.io/FRTINFO/Footage/MatadorArms.mp4
+- Matador Arms is working on a trip to allow for atrius selector usage. | [**Footage**](https://kg2g.github.io/FRTINFO/Footage/MatadorArms.mp4)
 
 ## **SKS**
-- Hush Holsters are working on it.
-	└ Footage: https://youtu.be/9PfG3M0wA20
+- Hush Holsters are working on it. | [**Footage**](https://youtu.be/9PfG3M0wA20)
 
 ## **Thompson**
-- One of the ASDesigns developers @_009515 showed footage of their FRT for the platform, unsure if ASDesigns will take it up as a project
-	└ Footage: https://kg2g.github.io/FRTINFO/Footage/Thompson.mp4 - @_009515 on x.com
+- One of the ASDesigns developers @_009515 showed footage of their FRT for the platform, unsure if ASDesigns will take it up as a project | [**Footage by @_009515 on x.com**](https://kg2g.github.io/FRTINFO/Footage/Thompson.mp4)
 - Duality Arms Co is working on a solution for the Auto Ordnance 1927A1
 
 ## **M240**
-- By @m240brrrrr on x.com
-	└ Footage: https://kg2g.github.io/FRTINFO/Footage/m240_2.mp4
-	└ Footage: https://kg2g.github.io/FRTINFO/Footage/m240_1.mp4
+- By @m240brrrrr on x.com | [**Footage**](https://kg2g.github.io/FRTINFO/Footage/m240_2.mp4) | [**Footage**](https://kg2g.github.io/FRTINFO/Footage/m240_1.mp4)
 
 ## **Keltech CP33**
 - Advanced Reset Tech is working on a solution.
 
 ## **Ruger Mini-14**
-- One of the ASDesigns developers @_009515 showed footage of their FRT for the platform, unsure if ASDesigns will take it up as a project
-	└ Footage: https://kg2g.github.io/FRTINFO/Footage/MINI14FRT.mp4 - @_009515 on x.com
+- One of the ASDesigns developers @_009515 showed footage of their FRT for the platform, unsure if ASDesigns will take it up as a project | [**Footage by @_009515 on x.com**](https://kg2g.github.io/FRTINFO/Footage/MINI14FRT.mp4)
 
 ## **Free State Gun Co. SAS-9**
-- FRT capability is being worked on.
-	└ Footage: https://kg2g.github.io/FRTINFO/Footage/SAS9.mp4
+- FRT capability is being worked on. | [**Footage**](https://kg2g.github.io/FRTINFO/Footage/SAS9.mp4)
 
 ## **LWRC SMG 45**
-- Trip being worked on by Abject_Sandwich_3357 on reddit.com, allows for a Rarebeed functionaility
-	└ Footage: https://kg2g.github.io/FRTINFO/Footage/LWRC-SMG45.mp4 - @Abject_Sandwich_3357 on reddit.com
-
-<iframe width="560" height="315" 
-  src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-  frameborder="0" 
-  allowfullscreen>
-</iframe>
-
+- Trip being worked on by Abject_Sandwich_3357 on reddit.com, allows for a Rarebeed functionaility | [**Footage by @Abject_Sandwich_3357 on reddit.com**](https://kg2g.github.io/FRTINFO/Footage/LWRC-SMG45.mp4)
 
 
 
