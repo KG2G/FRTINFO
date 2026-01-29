@@ -61,7 +61,7 @@ AR-15 556/9mm/22lr pretty much every caliber
 - Parabellum Combat Systems is also working on a drop in varient that works in stardard MP5 lowers. | [**Footage**](https://www.youtube.com/watch?v=z7db6_XQLSY)
 
 ### **Steyr AUG** 
-- A few of places for purchase; Hole drilled into stock is required. | [**Footage**](https://youtu.be/CHk3Q88GMPs)
+- A few of places for purchase, Hole drilled into stock is required. | [**Footage**](https://youtu.be/CHk3Q88GMPs)
 
 ### **Springfield Kuna** 
 - Requires a separate lower and trip from Nexus Firearms, this allows for either Rarebreed or super safety function and CZ EVO Magpul Pmags capability | [**Footage**](https://youtu.be/hS-0itWc_TY)
@@ -142,12 +142,12 @@ AR-15 556/9mm/22lr pretty much every caliber
 - Duality Arms Co released their 3D printed solution, 3 position will be later | [**Link**](https://cults3d.com/en/3d-model/gadget/duality-arms-co-hk-mp5-22lr-mamba)
 
 ### **MPA Defender**
-- by Advanced Reset Tech; Released as a printable component on odyssey | [**Link**](https://odysee.com/@ToadLicker556:d/The-Twitch-(BETA)-MPA-Defender-(Mac10-11)-FRT:3)
+- by Advanced Reset Tech, released as a printable component on odyssey | [**Link**](https://odysee.com/@ToadLicker556:d/The-Twitch-(BETA)-MPA-Defender-(Mac10-11)-FRT:3)
 - Will likely be purchasable on their website soon | [**Footage**](https://kg2g.github.io/FRTINFO/Footage/MPAART.mp4)
 
 ### **FN PS90** 
 - Dorin Technologies; pre-order is avaliable now. | [**Footage**](https://youtu.be/_pj4cnZZWFg)
-- 2 position solution exists; pre-order is avaliable now by @BSquaredMfg | [**Footage by @BSquaredMfg on x.com**](https://kg2g.github.io/FRTINFO/Footage/PS90.mp4)
+- 2 position solution exists, pre-order is avaliable now by @BSquaredMfg | [**Footage by @BSquaredMfg on x.com**](https://kg2g.github.io/FRTINFO/Footage/PS90.mp4)
 - Duality Arms Co. version is in development | [**Footage**](https://kg2g.github.io/FRTINFO/Footage/PS90-RATL-R.mp4)
 
 ### **Ruger PC Charger** 
@@ -166,7 +166,7 @@ AR-15 556/9mm/22lr pretty much every caliber
 <br>
 
 ### **AP53** 
-- ASDesigns is working on two options; Requires Seperate lower. | [**Footage by @s3igu2 on x.com**](https://kg2g.github.io/FRTINFO/Footage/AP53.mp4)
+- ASDesigns is working on two options, Requires Seperate lower. | [**Footage by @s3igu2 on x.com**](https://kg2g.github.io/FRTINFO/Footage/AP53.mp4)
 - ASDesigns is also working on a drop in varient that works in stardard HK lowers.
 - Parabellum Combat Systems is also working on a drop in varient that works in stardard lowers. | [**Footage**](https://youtu.be/jw7RiAgzTFY)
 
@@ -177,7 +177,7 @@ AR-15 556/9mm/22lr pretty much every caliber
 - ASDesigns is working on it.
 
 ### **CMMG Dissent platform** 
-- ASDesigns is working on it; Requires Seperate lower. | [**Footage by @_009515 on x.com**](https://kg2g.github.io/FRTINFO/Footage/CMMGDISSENT.mp4)
+- ASDesigns is working on it, Requires Seperate lower. | [**Footage by @_009515 on x.com**](https://kg2g.github.io/FRTINFO/Footage/CMMGDISSENT.mp4)
 
 ### **Stribog platform** 
 - Some people have got this to work with a super safety and ARC with Lingle lower. This seems to require a cut in the upper
