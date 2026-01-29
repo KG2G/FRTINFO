@@ -75,12 +75,10 @@ AR-15 556/9mm/22lr pretty much every caliber
 - Tons of places for purchase.
 - Don't get it from FFT, it's very expensive and considered the "gen 1" variant of the trip
 - The new versions of the trip is much easier on the internals
-- There are weighed striker assemblies which allows for suppressor and subsonic ammo use
-	└ Footage: https://youtu.be/GspYbWp9Dfs
+- There are weighed striker assemblies which allows for suppressor and subsonic ammo use | [**Footage**](https://youtu.be/GspYbWp9Dfs)
 
 ## **Glock platform** 
-- Tons of places for purchase.
-	└ Footage: https://youtu.be/GdBBd6DnVgs
+- Tons of places for purchase. | [**Footage**](https://youtu.be/GdBBd6DnVgs)
 
 ## **S&W M&P 2.0 platform** 
 - Was available for sale by Freedom Finger Triggers, but currently they are waiting for an ATF letter. 
@@ -89,37 +87,26 @@ AR-15 556/9mm/22lr pretty much every caliber
 	└ Footage: https://youtu.be/b9DaCYtvOiI
 
 ## **1911/2011**
-- A few of places for purchase.
-	└ Footage: https://youtu.be/gHXZmIvIJPI
+- A few of places for purchase. | [**Footage**](https://youtu.be/gHXZmIvIJPI)
 
 ## **Beretta 90 series** 
-- Released by Griffith Guns.
-	└ Footage: https://youtu.be/-v75QmQbrUw
+- Released by Griffith Guns. | [**Footage**](https://youtu.be/-v75QmQbrUw)
 
 ## **Canik** 
-- Released by gforcecnc.
-	└ Footage: https://youtu.be/dWvXLJVCYXE
-	└ Footage: https://youtu.be/9z-Iaufj4Ko
+- Released by gforcecnc. | [**Footage**](https://youtu.be/dWvXLJVCYXE) | [**Footage**](https://youtu.be/9z-Iaufj4Ko)
 
 ## **PSA Rock 5.7**
-- A few of places for purchase.
-	└ Footage: https://youtu.be/_66PwRNOsiU
+- A few of places for purchase. | [**Footage**](https://youtu.be/_66PwRNOsiU)
 
 ## **B&T APC series**
-- East Valley Tactical has a service that allows lowers to work with the Rarebreed trigger and uses their safety to allow usage in the OEM lower. 
-	└ Footage: https://youtu.be/wbpXSwMU8LQ
-- ASDesigns is working on it as a separate lower to allow function with a super safety or ARC selector, this is not yet released.
-	└ Footage: https://kg2g.github.io/FRTINFO/Footage/APC.mp4 - @_009515 on x.com
-- ammjsolutions sells a Apc9 frt mod kit that allows for Rarebreed FRT
-	└ Link: https://ammjsolutions.com/store/ols/products/apc9-frt-mod-kit
+- East Valley Tactical has a service that allows lowers to work with the Rarebreed trigger and uses their safety to allow usage in the OEM lower. | [**Footage**](https://youtu.be/wbpXSwMU8LQ)
+- ASDesigns is working on it as a separate lower to allow function with a super safety or ARC selector, this is not yet released. | [**Footage by @_009515 on x.com**](https://kg2g.github.io/FRTINFO/Footage/APC.mp4)
+- ammjsolutions sells a Apc9 frt mod kit that allows for Rarebreed FRT | [**Link**](https://ammjsolutions.com/store/ols/products/apc9-frt-mod-kit)
 
 ## **B&T GHM9**
-- East Valley Tactical has a service that allows lowers to work with the Rarebreed trigger and uses their safety to allow usage in the OEM lower. 
-	└ Footage: https://youtu.be/wbpXSwMU8LQ
-- ASDesigns is working on it as a separate lower to allow function with a super safety or ARC selector, this is not yet released.
-	└ Footage: https://kg2g.github.io/FRTINFO/Footage/GHM9.mp4 - @_009515 on x.com
-- ammjsolutions sells a Ghm9 frt mod kit that allows for Rarebreed FRT
-	└ Link: https://ammjsolutions.com/store/ols/products/apc9-frt-mod-kit-pc9-frt-mod-kit1
+- East Valley Tactical has a service that allows lowers to work with the Rarebreed trigger and uses their safety to allow usage in the OEM lower. | [**Footage**](https://youtu.be/wbpXSwMU8LQ)
+- ASDesigns is working on it as a separate lower to allow function with a super safety or ARC selector, this is not yet released. | [**Footage by @_009515 on x.com***](https://kg2g.github.io/FRTINFO/Footage/GHM9.mp4)
+- ammjsolutions sells a Ghm9 frt mod kit that allows for Rarebreed FRT | [**Link**](https://ammjsolutions.com/store/ols/products/apc9-frt-mod-kit-pc9-frt-mod-kit1)
 
 ## **B&T SPC9**
 - East Valley Tactical has a service that allows lowers to work with the Rarebreed trigger and uses their safety to allow usage in the OEM lower. 
