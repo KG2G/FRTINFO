@@ -302,5 +302,5 @@ AR-15 556/9mm/22lr pretty much every caliber
 - Trip being worked on by Abject_Sandwich_3357 on reddit.com, allows for a Rarebeed functionaility
 	└ Footage: https://kg2g.github.io/FRTINFO/Footage/LWRC-SMG45.mp4 - @Abject_Sandwich_3357 on reddit.com
 
-[Watch the demo](Footage/SAS9.mp4)
+[Watch the demo]([Footage/SAS9.mp4](https://kg2g.github.io/FRTINFO/Footage/SAS9.mp4))
 
