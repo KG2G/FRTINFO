@@ -53,19 +53,19 @@ AR-15 556/9mm/22lr pretty much every caliber
 ## **AK**
 - Tons of places for purchase
 - Normally 2 position, but 3 position is possible but requires a decent amount of work and seperate FA parts including the selector and disconnector
-	└ Footage: https://youtu.be/K06gPh_vtUI
+- [**Footage**](https://youtu.be/K06gPh_vtUI)
 
 ## **HK MP5 platform** 
 - Tons of places for purchase. 
 - There are two versions, the current released version is a separate lower that accepts AR-15 FCG, 3D printed Leber or a metal lower from ASDesgins.
-	└ Footage: https://youtu.be/9pYmUALO3X0
+- [**Footage**](https://youtu.be/9pYmUALO3X0)
 - Rarebreed has a lower in development that uses a standard MP5 lower.
-	└ Footage: https://reddit.com/r/MP5/comments/1os42f6/rarebreed_mp5_trigger_from_cancon_today/
+- [**Footage**](https://reddit.com/r/MP5/comments/1os42f6/rarebreed_mp5_trigger_from_cancon_today)
 - ASDesigns is also working on a drop in varient that works in stardard MP5 and other similar HK lowers.
-	└ Footage: https://kg2g.github.io/FRTINFO/Footage/ASDesignsMP5.mp4
-	└ Image: https://kg2g.github.io/FRTINFO/Images/ASDesignsMP5.jpeg
+- [**Footage**](https://kg2g.github.io/FRTINFO/Footage/ASDesignsMP5.mp4)
+- [**Image**](https://kg2g.github.io/FRTINFO/Images/ASDesignsMP5.jpeg)
 - Parabellum Combat Systems is also working on a drop in varient that works in stardard MP5 lowers.
-	└ Footage: https://www.youtube.com/watch?v=z7db6_XQLSY
+- [**Footage**](https://www.youtube.com/watch?v=z7db6_XQLSY)
 
 ## **Steyr AUG** 
 - A few of places for purchase.
