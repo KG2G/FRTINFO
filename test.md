@@ -69,7 +69,6 @@ AR-15 556/9mm/22lr pretty much every caliber
 
 ## **SIG MCX platform** 
 - There is a trip bar you can install in the upper which allows usage of a Rarebreed. | [**Footage**](https://youtu.be/mGMGiaYGAOI)
-	└ Footage: https://youtu.be/mGMGiaYGAOI
 - ASDesigns has a separate trip in the lower that allows for super safeties and their ARC selector. | [**Footage by @s3igu2 on x.com**](https://kg2g.github.io/FRTINFO/Footage/ARCMCX.mp4)
 
 ## **Taurus TX22** 
