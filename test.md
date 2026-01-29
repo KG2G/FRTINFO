@@ -45,7 +45,7 @@ AR-15 556/9mm/22lr pretty much every caliber
 	
 - AR9 and AR22 set ups requires more specific details, please research that
 
-**##AR-10** 
+## **AR-10** 
 - Grey Market Research has super safety sets for AR-10.
 	└ Footage: https://kg2g.github.io/FRTINFO/Footage/AR308.mp4
 
