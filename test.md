@@ -47,7 +47,8 @@ AR-15 556/9mm/22lr pretty much every caliber
 
 ## **AR-10** 
 - Grey Market Research has super safety sets for AR-10.
-	└ Footage: https://kg2g.github.io/FRTINFO/Footage/AR308.mp4
+- [**Footage**](https://kg2g.github.io/FRTINFO/Footage/AR308.mp4)
+
 
 ## **AK**
 - Tons of places for purchase
