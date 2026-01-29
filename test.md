@@ -45,16 +45,16 @@ AR-15 556/9mm/22lr pretty much every caliber
 	
 - AR9 and AR22 set ups requires more specific details, please research that
 
-AR-10 
+**AR-10** 
 - Grey Market Research has super safety sets for AR-10.
 	└ Footage: https://kg2g.github.io/FRTINFO/Footage/AR308.mp4
 
-AK 
+**AK**
 - Tons of places for purchase
 - Normally 2 position, but 3 position is possible but requires a decent amount of work and seperate FA parts including the selector and disconnector
 	└ Footage: https://youtu.be/K06gPh_vtUI
 
-HK MP5 platform 
+**HK MP5 platform** 
 - Tons of places for purchase. 
 - There are two versions, the current released version is a separate lower that accepts AR-15 FCG, 3D printed Leber or a metal lower from ASDesgins.
 	└ Footage: https://youtu.be/9pYmUALO3X0
@@ -66,7 +66,7 @@ HK MP5 platform
 - Parabellum Combat Systems is also working on a drop in varient that works in stardard MP5 lowers.
 	└ Footage: https://www.youtube.com/watch?v=z7db6_XQLSY
 
-Steyr AUG 
+**Steyr AUG** 
 - A few of places for purchase.
 - Hole drilled into stock is required.
 	└ Footage: https://youtu.be/CHk3Q88GMPs
