@@ -158,12 +158,11 @@ AR-15 556/9mm/22lr pretty much every caliber
 ### **DB9 Alloy**
 - Mac 11 upper with 3D printed lower which allows for AR-15 FCG and super safety capability. | [**Footage**](https://youtu.be/mI-JgR7fbg0)
 
-
+<br>
 
 # IN DEVELOPMENT
 
-
-
+<br>
 
 ### **AP53** 
 - ASDesigns is working on two options; Requires Seperate lower. | [**Footage by @s3igu2 on x.com**](https://kg2g.github.io/FRTINFO/Footage/AP53.mp4)
