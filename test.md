@@ -139,7 +139,7 @@ AR-15 556/9mm/22lr pretty much every caliber
 
 ## **HK MP5 22**
 - ursa-sec.com has a drop-in FRT designed specifically for the Umarex MP5 clone | [**Footage**](https://youtu.be/7ERa7vBmLag)
-- Duality Arms Co released their 3D printed solution, 3 position will be later | [**Link**](https://cults3d.com/en/3d-model/gadget/duality-arms-co-hk-mp5-22lr-mamba) | [**Image**](https://i.redd.it/9pnc4a9sp0gg1.png)
+- Duality Arms Co released their 3D printed solution, 3 position will be later | [**Link**](https://cults3d.com/en/3d-model/gadget/duality-arms-co-hk-mp5-22lr-mamba)
 
 ## **MPA Defender**
 - by Advanced Reset Tech; Released as a printable component on odyssey | [**Link**](https://odysee.com/@ToadLicker556:d/The-Twitch-(BETA)-MPA-Defender-(Mac10-11)-FRT:3)
