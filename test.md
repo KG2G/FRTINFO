@@ -52,110 +52,110 @@ AR-15 556/9mm/22lr pretty much every caliber
 - Tons of places for purchase
 - Normally 2 position, but 3 position is possible but requires a decent amount of work and seperate FA parts including the selector and disconnector | [**Footage**](https://youtu.be/K06gPh_vtUI)
 
-## **HK MP5 platform** 
+### **HK MP5 platform** 
 - Tons of places for purchase. 
 - There are two versions, the current released version is a separate lower that accepts AR-15 FCG, 3D printed Leber or a metal lower from ASDesgins. | [**Footage**](https://youtu.be/9pYmUALO3X0)
 - Rarebreed has a lower in development that uses a standard MP5 lower. | [**Footage**](https://reddit.com/r/MP5/comments/1os42f6/rarebreed_mp5_trigger_from_cancon_today)
 - ASDesigns is also working on a drop in varient that works in stardard MP5 and other similar HK lowers. | [**Footage**](https://kg2g.github.io/FRTINFO/Footage/ASDesignsMP5.mp4) | [**Image**](https://kg2g.github.io/FRTINFO/Images/ASDesignsMP5.jpeg)
 - Parabellum Combat Systems is also working on a drop in varient that works in stardard MP5 lowers. | [**Footage**](https://www.youtube.com/watch?v=z7db6_XQLSY)
 
-## **Steyr AUG** 
+### **Steyr AUG** 
 - A few of places for purchase; Hole drilled into stock is required. | [**Footage**](https://youtu.be/CHk3Q88GMPs)
 
-## **Springfield Kuna** 
+### **Springfield Kuna** 
 - Requires a separate lower and trip from Nexus Firearms, this allows for either Rarebreed or super safety function and CZ EVO Magpul Pmags capability | [**Footage**](https://youtu.be/hS-0itWc_TY)
 - ASDesgins is also working on a lower.
 
-## **SIG MCX platform** 
+### **SIG MCX platform** 
 - There is a trip bar you can install in the upper which allows usage of a Rarebreed. | [**Footage**](https://youtu.be/mGMGiaYGAOI)
 - ASDesigns has a separate trip in the lower that allows for super safeties and their ARC selector. | [**Footage by @s3igu2 on x.com**](https://kg2g.github.io/FRTINFO/Footage/ARCMCX.mp4)
 
-## **Taurus TX22** 
+### **Taurus TX22** 
 - Tons of places for purchase.
 - Don't get it from FFT, it's very expensive and considered the "gen 1" variant of the trip
 - The new versions of the trip is much easier on the internals
 - There are weighed striker assemblies which allows for suppressor and subsonic ammo use
 - [**Footage**](https://youtu.be/GspYbWp9Dfs)
 
-## **Glock platform** 
+### **Glock platform** 
 - Tons of places for purchase. | [**Footage**](https://youtu.be/GdBBd6DnVgs)
 
-## **S&W M&P 2.0 platform** 
+### **S&W M&P 2.0 platform** 
 - Was available for sale by Freedom Finger Triggers, but currently they are waiting for an ATF letter. 
 - There are others that sell the same design.
 - FFT did have a selectable design.
 - [**Footage**](https://youtu.be/b9DaCYtvOiI)
 
-## **1911/2011**
+### **1911/2011**
 - A few of places for purchase. | [**Footage**](https://youtu.be/gHXZmIvIJPI)
 
-## **Beretta 90 series** 
+### **Beretta 90 series** 
 - Released by Griffith Guns. | [**Footage**](https://youtu.be/-v75QmQbrUw)
 
-## **Canik** 
+### **Canik** 
 - Released by gforcecnc. | [**Footage**](https://youtu.be/dWvXLJVCYXE) | [**Footage**](https://youtu.be/9z-Iaufj4Ko)
 
-## **PSA Rock 5.7**
+### **PSA Rock 5.7**
 - A few of places for purchase. | [**Footage**](https://youtu.be/_66PwRNOsiU)
 
-## **B&T APC series**
+### **B&T APC series**
 - East Valley Tactical has a service that allows lowers to work with the Rarebreed trigger and uses their safety to allow usage in the OEM lower. | [**Footage**](https://youtu.be/wbpXSwMU8LQ)
 - ASDesigns is working on it as a separate lower to allow function with a super safety or ARC selector, this is not yet released. | [**Footage by @_009515 on x.com**](https://kg2g.github.io/FRTINFO/Footage/APC.mp4)
 - ammjsolutions sells a Apc9 frt mod kit that allows for Rarebreed FRT | [**Link**](https://ammjsolutions.com/store/ols/products/apc9-frt-mod-kit)
 
-## **B&T GHM9**
+### **B&T GHM9**
 - East Valley Tactical has a service that allows lowers to work with the Rarebreed trigger and uses their safety to allow usage in the OEM lower. | [**Footage**](https://youtu.be/wbpXSwMU8LQ)
 - ASDesigns is working on it as a separate lower to allow function with a super safety or ARC selector, this is not yet released. | [**Footage by @_009515 on x.com***](https://kg2g.github.io/FRTINFO/Footage/GHM9.mp4)
 - ammjsolutions sells a Ghm9 frt mod kit that allows for Rarebreed FRT | [**Link**](https://ammjsolutions.com/store/ols/products/apc9-frt-mod-kit-pc9-frt-mod-kit1)
 
-## **B&T SPC9**
+### **B&T SPC9**
 - East Valley Tactical has a service that allows lowers to work with the Rarebreed trigger and uses their safety to allow usage in the OEM lower. | [**Footage**](https://youtu.be/wbpXSwMU8LQ)
 - ASDesigns is working on it as a separate lower to allow function with a super safety or ARC selector, this is not yet released. | [**Footage by @_009515 on x.com**](https://kg2g.github.io/FRTINFO/Footage/SPC9.mp4)
 
-## **PSA JAKL platform** 
+### **PSA JAKL platform** 
 - Trip Released by ASDesigns. | [**Footage**](https://youtu.be/3W6lVPz6Hu4)
 
-## **Kriss Vector**
+### **Kriss Vector**
 - two versions by Duality Arms Co, the two position only version or the three position version. | [**Footage**](https://youtu.be/dmR7zZWWCJk)
 
-## **JTS M12AR** 
+### **JTS M12AR** 
 - A few of places for purchase. | [**Footage**](https://youtu.be/MeO1atcUBWU)
 
-## **Ruger 10/22**
+### **Ruger 10/22**
 - Advanced Reset Tech makes the device itself. Can be purchased from several vendors including themselves. | [**Footage**](https://youtu.be/1_3mhlu2ERo) | [**Footage**](https://youtu.be/hmaMI-uIs8g)
 - Mars Trigger has a pre order for a different design.
 
-## **FN SCAR 16/17** 
+### **FN SCAR 16/17** 
 - Requires a separate lower by Imperial Arms to allow for AR FCG, it also requires a trip and the bolt modified to use the Rarebreed FRT. | [**Footage**](https://youtu.be/geCvdD4tGGY)
 - ASDesigns is working on a separate lower which allows for super safe and ARC. | [**Footage by @s3igu2 on x.com**](https://kg2g.github.io/FRTINFO/Footage/SCAR17.mp4)
 
-## **VZ61** 
+### **VZ61** 
 - Requires a separate lower that allows for AR FCG and a super safety, these lowers are normally 3D printed. | [**Footage**](https://youtu.be/LSSSVJ2tWQ4)
 - There are also people working on an FRT in the standard lower.
 
-## **Keltec P50** 
+### **Keltec P50** 
 - Requires the ST-50 FCG and trip from stuff and things inc, the trip allows for super safety or FRT. | [**Footage**](https://kg2g.github.io/FRTINFO/Footage/KeltecP50.mp4)
 
-## **HK MP5 22**
+### **HK MP5 22**
 - ursa-sec.com has a drop-in FRT designed specifically for the Umarex MP5 clone | [**Footage**](https://youtu.be/7ERa7vBmLag)
 - Duality Arms Co released their 3D printed solution, 3 position will be later | [**Link**](https://cults3d.com/en/3d-model/gadget/duality-arms-co-hk-mp5-22lr-mamba)
 
-## **MPA Defender**
+### **MPA Defender**
 - by Advanced Reset Tech; Released as a printable component on odyssey | [**Link**](https://odysee.com/@ToadLicker556:d/The-Twitch-(BETA)-MPA-Defender-(Mac10-11)-FRT:3)
 - Will likely be purchasable on their website soon | [**Footage**](https://kg2g.github.io/FRTINFO/Footage/MPAART.mp4)
 
-## **FN PS90** 
+### **FN PS90** 
 - Dorin Technologies; pre-order is avaliable now. | [**Footage**](https://youtu.be/_pj4cnZZWFg)
 - 2 position solution exists; pre-order is avaliable now by @BSquaredMfg | [**Footage by @BSquaredMfg on x.com**](https://kg2g.github.io/FRTINFO/Footage/PS90.mp4)
 - Duality Arms Co. version is in development | [**Footage**](https://kg2g.github.io/FRTINFO/Footage/PS90-RATL-R.mp4)
 
-## **Ruger PC Charger** 
+### **Ruger PC Charger** 
 - Pre-order available by Mars Trigger. | [**Footage**](https://youtu.be/Ce4Odvha2hw)
 
-## **Ruger PC Carbine** 
+### **Ruger PC Carbine** 
 - Pre-order available by Mars Trigger.
 
-## **DB9 Alloy**
+### **DB9 Alloy**
 - Mac 11 upper with 3D printed lower which allows for AR-15 FCG and super safety capability. | [**Footage**](https://youtu.be/mI-JgR7fbg0)
 
 
@@ -163,79 +163,79 @@ AR-15 556/9mm/22lr pretty much every caliber
 ----------
 
 
-## **AP53** 
+### **AP53** 
 - ASDesigns is working on two options; Requires Seperate lower. | [**Footage by @s3igu2 on x.com**](https://kg2g.github.io/FRTINFO/Footage/AP53.mp4)
 - ASDesigns is also working on a drop in varient that works in stardard HK lowers.
 - Parabellum Combat Systems is also working on a drop in varient that works in stardard lowers. | [**Footage**](https://youtu.be/jw7RiAgzTFY)
 
-## **HK G3/91**
+### **HK G3/91**
 - ASDesigns is working on a drop in varient that works in stardard OEM lowers.
 
-## **BRN-180**
+### **BRN-180**
 - ASDesigns is working on it.
 
-## **CMMG Dissent platform** 
+### **CMMG Dissent platform** 
 - ASDesigns is working on it; Requires Seperate lower. | [**Footage by @_009515 on x.com**](https://kg2g.github.io/FRTINFO/Footage/CMMGDISSENT.mp4)
 
-## **Stribog platform** 
+### **Stribog platform** 
 - Some people have got this to work with a super safety and ARC with Lingle lower. This seems to require a cut in the upper
 - ASDesigns is working on a different option, which requires a seperate lower | [**Footage by @_009515 on x.com**](https://kg2g.github.io/FRTINFO/Footage/STRIBOG.mp4)
 
-## **CZ Scorpion**
+### **CZ Scorpion**
 - Nexus Firearms is working on it to allow function with the Rarebreed trigger. | [**Footage**](https://youtu.be/RsGceOia_D4)
 - Teased by Duality Arms Co
 
-## **HK UMP (HKP Kit/S5 Tactical, Clones, and USC conversions)**
+### **HK UMP (HKP Kit/S5 Tactical, Clones, and USC conversions)**
 - ASDesigns is working on it.
 
-## **Beretta Cx4** 
+### **Beretta Cx4** 
 - Developed by Brello Solutions. | [**Footage by @brellosolutions.us on instagram.com**](https://kg2g.github.io/FRTINFO/Footage/Beretta-CX4.mp4)
 
-## **CZ BREN 2** 
+### **CZ BREN 2** 
 - Nexus Firearms is working on it to allow function with the Rarebreed trigger, this is a separate lower. | [**Footage**](https://kg2g.github.io/FRTINFO/Footage/CZBREN2.mp4)
 
-## **SIG P320**
+### **SIG P320**
 - There seems to be two solutions for this, an anon in the thread has a working model that's selectable and also is waiting for an ATF letter. | [**Footage by @Fish_Will_Roll on YT**](https://kg2g.github.io/FRTINFO/Footage/P320.mp4)
 - The other solution is teased by Duality Arms Co.
 
-## **FN M249S** 
+### **FN M249S** 
 - ASDesigns is working on it; Requires seperate lower | [**Footage by @s3igu2 on x.com**](https://kg2g.github.io/FRTINFO/Footage/M249.mp4)
 
-## **B&T TP9** 
+### **B&T TP9** 
 - Duality Arms Co is working on a solution
 
-## **B&T KH9**
+### **B&T KH9**
 - East Valley Tactical will release support soon
 
-## **VZ58** 
+### **VZ58** 
 - An anon in the thread is working on it, 3 position as well.
 
-## **FAL** 
+### **FAL** 
 - This was mentioned in a thread, no public information is released.
 
-## **Matador Arms AR9 uppers**
+### **Matador Arms AR9 uppers**
 - Matador Arms is working on a trip to allow for atrius selector usage. | [**Footage**](https://kg2g.github.io/FRTINFO/Footage/MatadorArms.mp4)
 
-## **SKS**
+### **SKS**
 - Hush Holsters are working on it. | [**Footage**](https://youtu.be/9PfG3M0wA20)
 
-## **Thompson**
+### **Thompson**
 - One of the ASDesigns developers @_009515 showed footage of their FRT for the platform, unsure if ASDesigns will take it up as a project | [**Footage by @_009515 on x.com**](https://kg2g.github.io/FRTINFO/Footage/Thompson.mp4)
 - Duality Arms Co is working on a solution for the Auto Ordnance 1927A1
 
-## **M240**
+### **M240**
 - By @m240brrrrr on x.com | [**Footage**](https://kg2g.github.io/FRTINFO/Footage/m240_2.mp4) | [**Footage**](https://kg2g.github.io/FRTINFO/Footage/m240_1.mp4)
 
-## **Keltech CP33**
+### **Keltech CP33**
 - Advanced Reset Tech is working on a solution.
 
-## **Ruger Mini-14**
+### **Ruger Mini-14**
 - One of the ASDesigns developers @_009515 showed footage of their FRT for the platform, unsure if ASDesigns will take it up as a project | [**Footage by @_009515 on x.com**](https://kg2g.github.io/FRTINFO/Footage/MINI14FRT.mp4)
 
-## **Free State Gun Co. SAS-9**
+### **Free State Gun Co. SAS-9**
 - FRT capability is being worked on. | [**Footage**](https://kg2g.github.io/FRTINFO/Footage/SAS9.mp4)
 
-## **LWRC SMG 45**
+### **LWRC SMG 45**
 - Trip being worked on by Abject_Sandwich_3357 on reddit.com, allows for a Rarebeed functionaility | [**Footage by @Abject_Sandwich_3357 on reddit.com**](https://kg2g.github.io/FRTINFO/Footage/LWRC-SMG45.mp4)
 
 
