@@ -57,24 +57,20 @@ AR-15 556/9mm/22lr pretty much every caliber
 - Tons of places for purchase. 
 - There are two versions, the current released version is a separate lower that accepts AR-15 FCG, 3D printed Leber or a metal lower from ASDesgins. | [**Footage**](https://youtu.be/9pYmUALO3X0)
 - Rarebreed has a lower in development that uses a standard MP5 lower. | [**Footage**](https://reddit.com/r/MP5/comments/1os42f6/rarebreed_mp5_trigger_from_cancon_today)
-- ASDesigns is also working on a drop in varient that works in stardard MP5 and other similar HK lowers. [**Footage**](https://kg2g.github.io/FRTINFO/Footage/ASDesignsMP5.mp4) | [**Image**](https://kg2g.github.io/FRTINFO/Images/ASDesignsMP5.jpeg)
+- ASDesigns is also working on a drop in varient that works in stardard MP5 and other similar HK lowers. | [**Footage**](https://kg2g.github.io/FRTINFO/Footage/ASDesignsMP5.mp4) | [**Image**](https://kg2g.github.io/FRTINFO/Images/ASDesignsMP5.jpeg)
 - Parabellum Combat Systems is also working on a drop in varient that works in stardard MP5 lowers. | [**Footage**](https://www.youtube.com/watch?v=z7db6_XQLSY)
 
 ## **Steyr AUG** 
-- A few of places for purchase.
-- Hole drilled into stock is required.
-	└ Footage: https://youtu.be/CHk3Q88GMPs
+- A few of places for purchase; Hole drilled into stock is required. | [**Footage**](https://youtu.be/CHk3Q88GMPs)
 
 ## **Springfield Kuna** 
-- Requires a separate lower and trip from Nexus Firearms, this allows for either Rarebreed or super safety function and CZ EVO Magpul Pmags capability
-	└ Footage: https://youtu.be/hS-0itWc_TY
+- Requires a separate lower and trip from Nexus Firearms, this allows for either Rarebreed or super safety function and CZ EVO Magpul Pmags capability | [**Footage**](https://youtu.be/hS-0itWc_TY)
 - ASDesgins is also working on a lower.
 
 ## **SIG MCX platform** 
-- There is a trip bar you can install in the upper which allows usage of a Rarebreed. 
+- There is a trip bar you can install in the upper which allows usage of a Rarebreed. | [**Footage**](https://youtu.be/mGMGiaYGAOI)
 	└ Footage: https://youtu.be/mGMGiaYGAOI
-- ASDesigns has a separate trip in the lower that allows for super safeties and their ARC selector.
-	└ Footage: https://kg2g.github.io/FRTINFO/Footage/ARCMCX.mp4 - @s3igu2 on x.com
+- ASDesigns has a separate trip in the lower that allows for super safeties and their ARC selector. | [**Footage by @s3igu2 on x.com**](https://kg2g.github.io/FRTINFO/Footage/ARCMCX.mp4)
 
 ## **Taurus TX22** 
 - Tons of places for purchase.
