@@ -76,16 +76,13 @@ AR-15 556/9mm/22lr pretty much every caliber
 - Don't get it from FFT, it's very expensive and considered the "gen 1" variant of the trip
 - The new versions of the trip is much easier on the internals
 - There are weighed striker assemblies which allows for suppressor and subsonic ammo use
-- [**Footage**](https://youtu.be/GspYbWp9Dfs)
+🔗 [**Footage**](https://youtu.be/GspYbWp9Dfs)
 
 ### **Glock platform** 
 - Tons of places for purchase. 🔗 [**Footage**](https://youtu.be/GdBBd6DnVgs)
 
 ### **S&W M&P 2.0 platform** 
-- Was available for sale by Freedom Finger Triggers, but currently they are waiting for an ATF letter. 
-- There are others that sell the same design.
-- FFT did have a selectable design.
-- [**Footage**](https://youtu.be/b9DaCYtvOiI)
+- Was available for sale by Freedom Finger Triggers, but currently they are waiting for an ATF letter. There are others that sell the same design, but FFT did have a selectable design. 🔗 [**Footage**](https://youtu.be/b9DaCYtvOiI)
 
 ### **1911/2011**
 - A few of places for purchase. 🔗 [**Footage**](https://youtu.be/gHXZmIvIJPI)
