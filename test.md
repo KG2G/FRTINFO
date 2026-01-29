@@ -75,7 +75,8 @@ AR-15 556/9mm/22lr pretty much every caliber
 - Tons of places for purchase.
 - Don't get it from FFT, it's very expensive and considered the "gen 1" variant of the trip
 - The new versions of the trip is much easier on the internals
-- There are weighed striker assemblies which allows for suppressor and subsonic ammo use | [**Footage**](https://youtu.be/GspYbWp9Dfs)
+- There are weighed striker assemblies which allows for suppressor and subsonic ammo use
+- [**Footage**](https://youtu.be/GspYbWp9Dfs)
 
 ## **Glock platform** 
 - Tons of places for purchase. | [**Footage**](https://youtu.be/GdBBd6DnVgs)
@@ -84,7 +85,7 @@ AR-15 556/9mm/22lr pretty much every caliber
 - Was available for sale by Freedom Finger Triggers, but currently they are waiting for an ATF letter. 
 - There are others that sell the same design.
 - FFT did have a selectable design.
-	└ Footage: https://youtu.be/b9DaCYtvOiI
+- [**Footage**](https://youtu.be/b9DaCYtvOiI)
 
 ## **1911/2011**
 - A few of places for purchase. | [**Footage**](https://youtu.be/gHXZmIvIJPI)
@@ -109,76 +110,54 @@ AR-15 556/9mm/22lr pretty much every caliber
 - ammjsolutions sells a Ghm9 frt mod kit that allows for Rarebreed FRT | [**Link**](https://ammjsolutions.com/store/ols/products/apc9-frt-mod-kit-pc9-frt-mod-kit1)
 
 ## **B&T SPC9**
-- East Valley Tactical has a service that allows lowers to work with the Rarebreed trigger and uses their safety to allow usage in the OEM lower. 
-	└ Footage: https://youtu.be/wbpXSwMU8LQ
-- ASDesigns is working on it as a separate lower to allow function with a super safety or ARC selector, this is not yet released.
-	└ Footage: https://kg2g.github.io/FRTINFO/Footage/SPC9.mp4 - @_009515 on x.com
+- East Valley Tactical has a service that allows lowers to work with the Rarebreed trigger and uses their safety to allow usage in the OEM lower. | [**Footage**](https://youtu.be/wbpXSwMU8LQ)
+- ASDesigns is working on it as a separate lower to allow function with a super safety or ARC selector, this is not yet released. | [**Footage by @_009515 on x.com**](https://kg2g.github.io/FRTINFO/Footage/SPC9.mp4)
 
 ## **PSA JAKL platform** 
-- Trip Released by ASDesigns.
-	└ Footage: https://youtu.be/3W6lVPz6Hu4
+- Trip Released by ASDesigns. | [**Footage**](https://youtu.be/3W6lVPz6Hu4)
 
 ## **Kriss Vector**
-- two versions by Duality Arms Co, the two position only version or the three position version.
-	└ Footage: https://youtu.be/dmR7zZWWCJk
+- two versions by Duality Arms Co, the two position only version or the three position version. | [**Footage**](https://youtu.be/dmR7zZWWCJk)
 
 ## **JTS M12AR** 
-- A few of places for purchase.
-	└ Footage: https://youtu.be/MeO1atcUBWU
+- A few of places for purchase. | [**Footage**](https://youtu.be/MeO1atcUBWU)
 
 ## **Ruger 10/22**
-- Advanced Reset Tech makes the device itself. Can be purchased from several vendors including themselves.
-	└ Footage: https://youtu.be/1_3mhlu2ERo
-	└ Footage: https://youtu.be/hmaMI-uIs8g
+- Advanced Reset Tech makes the device itself. Can be purchased from several vendors including themselves. | [**Footage**](https://youtu.be/1_3mhlu2ERo) | [**Footage**](https://youtu.be/hmaMI-uIs8g)
 - Mars Trigger has a pre order for a different design.
 
 ## **FN SCAR 16/17** 
-- Requires a separate lower by Imperial Arms to allow for AR FCG, it also requires a trip and the bolt modified to use the Rarebreed FRT. 
-	└ Footage: https://youtu.be/geCvdD4tGGY
-- ASDesigns is working on a separate lower which allows for super safe and ARC.
-	└ Footage: https://kg2g.github.io/FRTINFO/Footage/SCAR17.mp4 - @s3igu2 on x.com
+- Requires a separate lower by Imperial Arms to allow for AR FCG, it also requires a trip and the bolt modified to use the Rarebreed FRT. | [**Footage**](https://youtu.be/geCvdD4tGGY)
+- ASDesigns is working on a separate lower which allows for super safe and ARC. | [**Footage by @s3igu2 on x.com**](https://kg2g.github.io/FRTINFO/Footage/SCAR17.mp4)
 
 ## **VZ61** 
-- Requires a separate lower that allows for AR FCG and a super safety, these lowers are normally 3D printed.
-	└ Footage: https://youtu.be/LSSSVJ2tWQ4
+- Requires a separate lower that allows for AR FCG and a super safety, these lowers are normally 3D printed. | [**Footage**](https://youtu.be/LSSSVJ2tWQ4)
 - There are also people working on an FRT in the standard lower.
 
 ## **Keltec P50** 
-- Requires the ST-50 FCG and trip from stuff and things inc, the trip allows for super safety or FRT.
-	└ Footage: https://kg2g.github.io/FRTINFO/Footage/KeltecP50.mp4
+- Requires the ST-50 FCG and trip from stuff and things inc, the trip allows for super safety or FRT. | [**Footage**](https://kg2g.github.io/FRTINFO/Footage/KeltecP50.mp4)
 
 ## **HK MP5 22**
-- ursa-sec.com has a drop-in FRT designed specifically for the Umarex MP5 clone
-	└ Footage: https://youtu.be/7ERa7vBmLag
-- Duality Arms Co released their 3D printed solution, 3 position will be later
-	└ Link: https://cults3d.com/en/3d-model/gadget/duality-arms-co-hk-mp5-22lr-mamba
-	└ Image: https://i.redd.it/9pnc4a9sp0gg1.png
+- ursa-sec.com has a drop-in FRT designed specifically for the Umarex MP5 clone | [**Footage**](https://youtu.be/7ERa7vBmLag)
+- Duality Arms Co released their 3D printed solution, 3 position will be later | [**Link**](https://cults3d.com/en/3d-model/gadget/duality-arms-co-hk-mp5-22lr-mamba) | [**Image**](https://i.redd.it/9pnc4a9sp0gg1.png)
 
 ## **MPA Defender**
-- by Advanced Reset Tech
-- Released as a printable component on odyssey
-	└ Link: https://odysee.com/@ToadLicker556:d/The-Twitch-(BETA)-MPA-Defender-(Mac10-11)-FRT:3
-- Will likely be purchasable on their website soon
-	└ Footage: https://kg2g.github.io/FRTINFO/Footage/MPAART.mp4
+- by Advanced Reset Tech; Released as a printable component on odyssey | [**Link**](https://odysee.com/@ToadLicker556:d/The-Twitch-(BETA)-MPA-Defender-(Mac10-11)-FRT:3)
+- Will likely be purchasable on their website soon | [**Footage**](https://kg2g.github.io/FRTINFO/Footage/MPAART.mp4)
 
 ## **FN PS90** 
-- Dorin Technologies; pre-order is avaliable now
-	└ Footage: https://youtu.be/_pj4cnZZWFg
-- 2 position solution exists; pre-order is avaliable now by @BSquaredMfg
-	└ Footage: https://kg2g.github.io/FRTINFO/Footage/PS90.mp4 - @BSquaredMfg on x.com
-- Duality Arms Co. version is in development
-	└ Footage: https://kg2g.github.io/FRTINFO/Footage/PS90-RATL-R.mp4
+- Dorin Technologies; pre-order is avaliable now. | [**Footage**](https://youtu.be/_pj4cnZZWFg)
+- 2 position solution exists; pre-order is avaliable now by @BSquaredMfg | [**Footage by @BSquaredMfg on x.com**](https://kg2g.github.io/FRTINFO/Footage/PS90.mp4)
+- Duality Arms Co. version is in development | [**Footage**](https://kg2g.github.io/FRTINFO/Footage/PS90-RATL-R.mp4)
 
 ## **Ruger PC Charger** 
-- Pre-order available by Mars Trigger.
-	└ Footage: https://youtu.be/Ce4Odvha2hw
+- Pre-order available by Mars Trigger. | [**Footage**](https://youtu.be/Ce4Odvha2hw)
 
 ## **Ruger PC Carbine** 
 - Pre-order available by Mars Trigger.
 
 ## **DB9 Alloy**
-- Mac 11 upper with 3D printed lower which allows for AR-15 FCG and super safety capability.
-	└ Footage: https://youtu.be/mI-JgR7fbg0
+- Mac 11 upper with 3D printed lower which allows for AR-15 FCG and super safety capability. | [**Footage**](https://youtu.be/mI-JgR7fbg0)
 
 
 ### IN DEVELOPMENT
