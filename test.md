@@ -1,5 +1,4 @@
 # RELEASED
-----------
 
 
 AR-15 556/9mm/22lr pretty much every caliber 
