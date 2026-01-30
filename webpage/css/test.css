@@ -120,62 +120,44 @@ hr {
   margin: 1.5em 0;
 }
 
-/* Multi-column cards for platforms */
-.platform-grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 16px;
-  margin-top: 12px;
-}
-
-.platform-card {
-  flex: 1 1 300px;     /* min width for each column/card */
-  max-width: 480px;    /* optional: keeps columns readable */
-  background: var(--bg);
-  border: 1px solid var(--border);
-  padding: 10px 12px;
-  box-sizing: border-box;
-}
-
-/* Tighten inner list indentation inside cards */
-.platform-card ul {
-  margin-top: 4px;
-  margin-bottom: 4px;
-}
-
+/* Two-column layout for Released / In Development */
 .two-columns {
   display: flex;
   gap: 24px;
   align-items: flex-start;
 }
+
 .column {
   flex: 1 1 0;
   min-width: 0;
 }
+
 /* vertical line between sections */
 .column-left {
   border-right: 1px solid var(--border);
   padding-right: 12px;
   margin-right: 12px;
 }
+
 .column-right {
   padding-left: 12px;
 }
-
 
 /* MOBILE: stack columns */
 @media (max-width: 768px) {
   .two-columns {
     flex-direction: column;
   }
+
   .column-left {
     border-right: none;
     padding-right: 0;
     margin-right: 0;
-    border-bottom: 1px solid var(--border); /* optional: horizontal line instead */
+    border-bottom: 1px solid var(--border); /* horizontal divider instead */
     padding-bottom: 12px;
     margin-bottom: 12px;
   }
+
   .column-right {
     padding-left: 0;
   }
