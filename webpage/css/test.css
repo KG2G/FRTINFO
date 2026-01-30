@@ -140,8 +140,9 @@ hr {
 }
 
 .column-right {
-  padding-left: 12px;
+  padding-left: 25px; /* 12 + 12 + 1 border = ~25px visual balance */
 }
+
 
 /* MOBILE: stack columns */
 @media (max-width: 768px) {
