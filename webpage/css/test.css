@@ -135,7 +135,8 @@ hr {
 /* vertical line between sections */
 .column-left {
   border-right: 1px solid var(--border);
-  padding-right: 12px;
+  padding-right: 5px;
+  padding-left: 12px;
   margin-right: 12px;
 }
 
