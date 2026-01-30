@@ -143,6 +143,11 @@ hr {
   padding-left: 0px;   /* matches the inner spacing of the left column */
 }
 
+.column-left > h1,
+.column-right > h1 {
+  text-align: center;
+  text-decoration: underline;
+}
 
 
 /* MOBILE: stack columns */
