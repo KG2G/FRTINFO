@@ -143,8 +143,8 @@ hr {
   padding-left: 0px;   /* matches the inner spacing of the left column */
 }
 
-.column-left > h1,
-.column-right > h1 {
+.column > h1 {
+  margin-top: 0;              /* optional: pulls them up a bit */
   text-align: center;
   text-decoration: underline;
 }
