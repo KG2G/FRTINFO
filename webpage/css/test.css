@@ -143,3 +143,21 @@ hr {
   margin-bottom: 4px;
 }
 
+
+/* MOBILE: stack columns */
+@media (max-width: 768px) {
+  .two-columns {
+    flex-direction: column;
+  }
+  .column-left {
+    border-right: none;
+    padding-right: 0;
+    margin-right: 0;
+    border-bottom: 1px solid var(--border); /* optional: horizontal line instead */
+    padding-bottom: 12px;
+    margin-bottom: 12px;
+  }
+  .column-right {
+    padding-left: 0;
+  }
+}
