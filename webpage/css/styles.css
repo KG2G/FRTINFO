@@ -144,7 +144,7 @@ hr {
 }
 
 .column > h1 {
-  margin-top: 0;              /* optional: pulls them up a bit */
+  margin-top: 5;              /* optional: pulls them up a bit */
   text-align: center;
   text-decoration: underline;
 }
