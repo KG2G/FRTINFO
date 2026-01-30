@@ -24,7 +24,7 @@ html, body {
 
 /* Centered content container like a thread */
 .page {
-  max-width: 1000px;
+  max-width: 1400px;
   margin: 32px auto;
   padding: 16px 20px 40px;
   background: var(--bg-alt);
@@ -118,4 +118,47 @@ hr {
   border: 0;
   border-top: 1px solid var(--border);
   margin: 1.5em 0;
+}
+
+/* Two-column layout for Released / In Development */
+.two-columns {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+}
+
+.column {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+/* vertical line between sections */
+.column-left {
+  border-right: 1px solid var(--border);
+  padding-right: 12px;
+  margin-right: 12px;
+}
+
+.column-right {
+  padding-left: 12px;
+}
+
+/* MOBILE: stack columns */
+@media (max-width: 768px) {
+  .two-columns {
+    flex-direction: column;
+  }
+
+  .column-left {
+    border-right: none;
+    padding-right: 0;
+    margin-right: 0;
+    border-bottom: 1px solid var(--border); /* horizontal divider instead */
+    padding-bottom: 12px;
+    margin-bottom: 12px;
+  }
+
+  .column-right {
+    padding-left: 0;
+  }
 }
