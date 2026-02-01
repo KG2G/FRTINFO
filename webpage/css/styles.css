@@ -42,7 +42,7 @@ a:hover {
 
 h1, h2, h3, h4, h5, h6 {
   color: var(--accent-red);
-  margin: 1.2em 0 0.4em;
+  /* margin: 1.2em 0 0.4em;  */
   font-weight: 600;
 }
 
