@@ -1,293 +1,1033 @@
-/* Base Tomorrow-like colors */
-:root {
-  --bg: #1d1f21;        /* background */
-  --bg-alt: #282a2e;    /* blocks / code */
-  --fg: #c5c8c6;        /* normal text */
-  --fg-soft: #969896;   /* muted text */
-  --accent-blue: #81a2be;
-  --accent-green: #b5bd68;
-  --accent-orange: #de935f;
-  --accent-red: #cc6666;
-  --accent-purple: #b294bb;
-  --accent-yellow: #f0c674;
-  --border: #373b41;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FRTINFO</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="page">
+    <div class="two-columns">
+      <!-- LEFT: RELEASED -->
+      <div class="column column-left">
+        <h1>RELEASED</h1>
 
-html, body {
-  margin: 0;
-  padding: 0;
-  background: var(--bg);
-  color: var(--fg);
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  line-height: 1.6;
-}
+        <h3>AR-15 556/9mm/22lr pretty much every caliber</h3>
+        <div class="indent">
+          - Tons of places for purchase and many different variants.
+          <br><br>
+          - Super Safety
+          <ul>
+            <li>Requires low shelf lower</li>
+            <li>Requires trigger cut</li>
+            <li>3 position crossbolt, push button safety</li>
+          </ul>
+          - Atrius Super Selector
+          <ul>
+            <li>Requires low shelf lower</li>
+            <li>3 position traditional safety selector</li>
+          </ul>
+          - Cornfire MARC
+          <ul>
+            <li>Atrius clone</li>
+            <li>Lever made from S7 tool steel</li>
+            <li>Requires low shelf lower</li>
+            <li>3 position traditional safety selector</li>
+          </ul>
+          - ASDesigns ARC Fire
+          <ul>
+            <li>Requires low shelf lower</li>
+            <li>Requires trigger cut</li>
+            <li>3 position traditional safety selector</li>
+            <li>V2 allows for 45 degree lever throw</li>
+          </ul>
+          - Arizona Regulator
+          <ul>
+            <li>Drop in</li>
+            <li>Lower shelf doesn't matter</li>
+            <li>3 position traditional safety selector</li>
+            <li>3 position version is available</li>
+          </ul>
+          - Kabuto/TURD/ARSS15
+          <ul>
+            <li>Drop in</li>
+            <li>Most have 3D printed parts, but there are all metal versions from other vendors.</li>
+            <li>3 position traditional safety selector</li>
+          </ul>
+          - Cassette style triggers
+          <ul>
+            <li>Rarebreed FRT-15</li>
+            <li>Delta Team Tactical FRT-15L3</li>
+            <li>Dairyland Defense FRT-15</li>
+            <li>Partisan Triggers The Disruptor</li>
+          </ul>
+          - AR9 and AR22 set ups requires more specific details, please research that
+        </div>
 
-/* Centered content container like a thread */
-.page {
-  max-width: 1400px;
-  margin: 32px auto;
-  padding: 16px 20px 40px;
-  background: var(--bg-alt);
-  border: 1px solid var(--border);
-  box-shadow: 0 0 12px rgba(0, 0, 0, 0.6);
-}
+        <div>
+          <h3>AR-10</h3>
+          <div class="indent">
+            <ul>
+              <li>Grey Market Research has super safety sets for AR-10.
+                <button class="video-toggle" data-title="AR-10 Footage" data-src="https://kg2g.github.io/FRTINFO/Footage/AR308.mp4" data-type="video/mp4">Show Footage</button>
+                <div class="video-embed" hidden></div>
+              </li>
+              <li><span class="note">In development by Partisan Triggers</span></li>
+              <li><span class="note">In development by Atrius</span></li>
+              <li><span class="note">ASDesigns is working on a lever for ARC Fire support</span></li>
+            </ul>
+          </div>
+        </div>
+        
+        <div>
+          <h3>IMG 12 Gauge AR-10 Upper</h3>
+          <div class="indent">
+            <ul>
+              <li>Works with the Grey Market Research has super safety sets for AR-10, may work with other solutions in the future.
+                <button class="video-toggle" data-title="IMG 12 Gauge AR-10 Upper Footage" data-src="https://youtu.be/TA4ISyXWNAs" data-type="youtube">Show Footage</button>
+                <div class="video-embed" hidden></div>
+              </li>
+            </ul>
+          </div>
+        </div>
 
-a {
-  color: var(--accent-blue);
-  text-decoration: none;
-}
-a:hover {
-  text-decoration: underline;
-}
+        <div>
+          <h3>AK</h3>
+          <div class="indent">
+            <ul>
+              <li>Tons of places for purchase</li>
+              <li>Normally 2 position, but 3 position is possible but requires a decent amount of work and separate FA parts including the selector and disconnector
+                <button class="video-toggle" data-title="AK Footage" data-src="https://youtu.be/K06gPh_vtUI" data-type="youtube">Show Footage</button>
+                <div class="video-embed" hidden></div>
+              </li>
+              <li><span class="note">In development by Partisan Triggers</span></li>
+            </ul>
+          </div>
+        </div>
 
-h1, h2, h3, h4, h5, h6 {
-  color: var(--accent-red);
-  margin: 1.2em 0 0.4em;
-  font-weight: 600;
-}
+        <div>
+          <h3>HK MP5 and clones platform</h3>
+          <div class="indent">
+            <ul>
+              <li>3D printed separate lower that accepts AR-15 FCG called the Leber V2, tons of places for purchase.</li>
+              <li>Metal lower from ASDesigns, made by the creator of the Leber V2.
+                <button class="video-toggle" data-title="HK MP5 Metal lower Footage" data-src="https://youtu.be/9pYmUALO3X0" data-type="youtube">Show Footage</button>
+                <div class="video-embed" hidden></div>
+              </li>
+              <li>Lee Sporting lower with super safety, can be bought complete by War Hammer Armaments or suppressortools.com. Note that this route isnâ€™t recommended by the creator of the MP5 FRT, s3igu2. Atrius support is now available.</li>
+              <li>Rarebreed has a lower that uses a standard MP5 housing.
+                <button class="video-toggle" data-title="Rarebreed MP5 Lower Footage" data-src="https://youtu.be/9bJAhm9pvAE" data-type="youtube">Show Footage</button>
+                <div class="video-embed" hidden></div>
+              </li>
+              <li><span class="note">ASDesigns is also working on a drop in variant called the ARHK that works in standard MP5 and other similar HK lowers.
+                <button class="video-toggle" data-title="ARHK Footage by @s3igu2 on x.com" data-src="https://kg2g.github.io/FRTINFO/Footage/ARHK.mp4" data-type="video/mp4">Show Footage</button>
+                </span>
+                <div class="video-embed" hidden></div>
+              </li>
+              <li><span class="note">Parabellum Combat Systems is also working on a drop in variant that works in standard MP5 lowers.
+                <button class="video-toggle" data-title="Parabellum MP5 Footage" data-src="https://www.youtube.com/watch?v=z7db6_XQLSY" data-type="youtube">Show Footage</button>
+                </span>
+                <div class="video-embed" hidden></div>
+              </li>
+            </ul>
+          </div>
+        </div>
 
-.note {
-  color: var(--accent-yellow);
-}
+        <div>
+          <h3>Steyr AUG</h3>
+          <div class="indent">
+            <ul>
+              <li>A few of places for purchase, hole drilled into stock is required to allow for super safety compatability.
+                <button class="video-toggle" data-title="Steyr AUG Footage" data-src="https://youtu.be/CHk3Q88GMPs" data-type="youtube">Show Footage</button>
+                <div class="video-embed" hidden></div>
+              </li>
+              <li>Red Star Palmetto is offering a progressive trigger option for pre-order.
+                <button class="video-toggle" data-title="Red Star Palmetto Link" data-src="https://www.redstarpalmetto.com/product/aug-p-frt-preorder/7QEI34RPPQ7YXIC6ZYNYQRFJ" data-type="external">Show Link</button>
+                <div class="video-embed" hidden></div>
+              </li>
+            </ul>
+          </div>
+        </div>
 
-p {
-  margin: 0.5em 0;
-}
+        <div>
+          <h3>Springfield Kuna</h3>
+          <div class="indent">
+            <ul>
+              <li>Requires a separate lower and trip from Nexus Firearms, this allows for either Rarebreed or super safety function and CZ EVO Magpul Pmags capability
+                <button class="video-toggle" data-title="Springfield Kuna Footage" data-src="https://youtu.be/hS-0itWc_TY" data-type="youtube">Show Footage</button>
+                <div class="video-embed" hidden></div>
+              </li>
+              <li><span class="note">ASDesigns is also working on a lower.</span></li>
+            </ul>
+          </div>
+        </div>
 
-/* Lists */
-ul, ol {
-  padding-left: 1.5em;
-}
+        <div>
+          <h3>SIG MCX platform</h3>
+          <div class="indent">
+            <ul>
+              <li>There is a trip bar you can install in the upper which allows usage of a Rarebreed.
+                <button class="video-toggle" data-title="SIG MCX Rarebreed Footage" data-src="https://youtu.be/mGMGiaYGAOI" data-type="youtube">Show Footage</button>
+                <div class="video-embed" hidden></div>
+              </li>
+              <li>ASDesigns has a separate trip in the lower that allows for super safeties and their ARC selector.
+                <button class="video-toggle" data-title="ARC MCX Footage" data-src="https://kg2g.github.io/FRTINFO/Footage/ARCMCX.mp4" data-type="video/mp4">Show Footage</button>
+                <div class="video-embed" hidden></div>
+              </li>
+              <li><span class="note">In development by Partisan Triggers</span></li>
+            </ul>
+          </div>
+        </div>
 
-/* Code blocks (fenced Markdown) */
-pre {
-  background: #1c1e22;
-  border: 1px solid var(--border);
-  padding: 10px 12px;
-  overflow-x: auto;
-  font-size: 0.9em;
-  border-radius: 2px;
-}
+        <div>
+          <h3>Taurus TX22</h3>
+          <div class="indent">
+            <ul>
+              <li>Tons of places for purchase.</li>
+              <li>Don't get it from FFT, it's very expensive and considered the "gen 1" variant of the trip</li>
+              <li>The new versions of the trip is much easier on the internals</li>
+              <li>There are weighed striker assemblies which allows for suppressor and subsonic ammo use</li>
+              <li>
+                <button class="video-toggle" data-title="Taurus TX22 Footage" data-src="https://youtu.be/hFFTOJZrILs" data-type="youtube">Show Footage</button>
+                <div class="video-embed" hidden></div>
+              </li>
+            </ul>
+          </div>
+        </div>
 
-code {
-  background: #1c1e22;
-  padding: 2px 4px;
-  border-radius: 2px;
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, "Courier New", monospace;
-}
+        <div>
+          <h3>Glock platform</h3>
+          <div class="indent">
+            <ul>
+              <li>Tons of places for purchase.
+                <button class="video-toggle" data-title="Glock Footage" data-src="https://youtu.be/GdBBd6DnVgs" data-type="youtube">Show Footage</button>
+                <div class="video-embed" hidden></div>
+              </li>
+            </ul>
+          </div>
+        </div>
 
-pre code {
-  background: transparent;
-  padding: 0;
-}
+        <div>
+          <h3>S&amp;W M&amp;P 2.0 platform</h3>
+          <div class="indent">
+            <ul>
+              <li>Was available for sale by Freedom Finger Triggers, but currently they are waiting for an ATF letter. There are others that sell the same design, but FFT did have a selectable design.
+                <button class="video-toggle" data-title="S&amp;W M&amp;P 2.0 Footage" data-src="https://youtu.be/b9DaCYtvOiI" data-type="youtube">Show Footage</button>
+                <div class="video-embed" hidden></div>
+              </li>
+            </ul>
+          </div>
+        </div>
 
-/* Blockquotes */
-blockquote {
-  border-left: 3px solid var(--accent-green);
-  margin: 0.8em 0;
-  padding: 0.4em 0 0.4em 0.8em;
-  color: var(--fg-soft);
-  background: rgba(0, 0, 0, 0.25);
-}
+        <div>
+          <h3>1911/2011</h3>
+          <div class="indent">
+            <ul>
+              <li>A few of places for purchase.
+                <button class="video-toggle" data-title="1911/2011 Footage" data-src="https://youtu.be/gHXZmIvIJPI" data-type="youtube">Show Footage</button>
+                <div class="video-embed" hidden></div>
+              </li>
+            </ul>
+          </div>
+        </div>
 
-/* Tables */
-table {
-  border-collapse: collapse;
-  width: 100%;
-  margin: 1em 0;
-  font-size: 0.95em;
-}
-th, td {
-  border: 1px solid var(--border);
-  padding: 6px 8px;
-}
-th {
-  background: #22252a;
-  color: var(--accent-yellow);
-  text-align: left;
-}
-tr:nth-child(even) td {
-  background: #22252a;
-}
+        <div>
+          <h3>Beretta 90 series</h3>
+          <div class="indent">
+            <ul>
+              <li>Released by Griffith Guns.
+                <button class="video-toggle" data-title="Beretta 90 Series Footage" data-src="https://youtu.be/-v75QmQbrUw" data-type="youtube">Show Footage</button>
+                <div class="video-embed" hidden></div>
+              </li>
+              <li><span class="note">Teased by Cashincllc.</span></li>
+            </ul>
+          </div>
+        </div>
 
-/* Images */
-img {
-  max-width: 100%;
-  height: auto;
-  border: 1px solid var(--border);
-}
+        <div>
+          <h3>Canik</h3>
+          <div class="indent">
+            <ul>
+              <li>Released by gforcecnc.
+                <button class="video-toggle" data-title="Canik Footage 1" data-src="https://youtu.be/dWvXLJVCYXE" data-type="youtube">Show Footage 1</button>
+                <button class="video-toggle" data-title="Canik Footage 2" data-src="https://youtu.be/9z-Iaufj4Ko" data-type="youtube">Show Footage 2</button>
+                <div class="video-embed" hidden></div>
+                <div class="video-embed" hidden></div>
+              </li>
+            </ul>
+          </div>
+        </div>
 
-/* Horizontal rule */
-hr {
-  border: 0;
-  border-top: 1px solid var(--border);
-  margin: 1.5em 0;
-}
+        <div>
+          <h3>PSA Rock 5.7</h3>
+          <div class="indent">
+            <ul>
+              <li>A few of places for purchase.
+                <button class="video-toggle" data-title="PSA Rock 5.7 Footage" data-src="https://youtu.be/_66PwRNOsiU" data-type="youtube">Show Footage</button>
+                <div class="video-embed" hidden></div>
+              </li>
+            </ul>
+          </div>
+        </div>
 
-/* Indent helper */
-.indent {
-  margin-left: 40px;
-}
+        <div>
+          <h3>B&amp;T APC series</h3>
+          <div class="indent">
+            <ul>
+              <li>East Valley Tactical has a service that allows lowers to work with the Rarebreed trigger and uses their safety to allow usage in the OEM lower.
+                <button class="video-toggle" data-title="B&amp;T APC Series Footage" data-src="https://youtu.be/wbpXSwMU8LQ" data-type="youtube">Show Footage</button>
+                <div class="video-embed" hidden></div>
+              </li>
+              <li><span class="note">ASDesigns is working on it as a separate lower to allow function with a super safety or ARC selector, this is not yet released.
+                <button class="video-toggle" data-title="APC Series ARC Footage" data-src="https://kg2g.github.io/FRTINFO/Footage/APC.mp4" data-type="video/mp4">Show Footage</button>
+                </span>
+                <div class="video-embed" hidden></div>
+              </li>
+              <li>ammjsolutions sells a APC9 FRT mod kit that allows for Rarebreed FRT
+                <button class="video-toggle" data-title="APC9 FRT Mod Footage" data-src="https://youtu.be/7dwOUhvQVSk" data-type="youtube">Show Footage</button>
+                <button class="video-toggle" data-title="ammjsolutions APC9 Kit Link" data-src="https://ammjsolutions.com/store/ols/products/apc9-frt-mod-kit" data-type="external">Show Link</button>
+                <div class="video-embed" hidden></div>
+                <div class="video-embed" hidden></div>
+              </li>
+              <li><span class="note">In development by Partisan Triggers</span></li>
+              <li><span class="note">AMMJ X Cloak Industries X Partezan Triggers working on a drop in trigger for B&amp;T guns drop in B&amp;T trigger, APC is later
+                <button class="video-toggle" data-title="B&amp;T FRT Footage" data-src="https://kg2g.github.io/FRTINFO/Footage/B&TFRT.mp4" data-type="video/mp4">Show Footage</button>
+                </span>
+                <div class="video-embed" hidden></div>
+              </li>
+            </ul>
+          </div>
+        </div>
 
-/* Two-column layout for Released / In Development */
-.two-columns {
-  display: flex;
-  gap: 24px;
-  align-items: flex-start;
-}
+        <div>
+          <h3>B&amp;T GHM9</h3>
+          <div class="indent">
+            <ul>
+              <li>East Valley Tactical has a service that allows lowers to work with the Rarebreed trigger and uses their safety to allow usage in the OEM lower.
+                <button class="video-toggle" data-title="GHM9 Footage" data-src="https://youtu.be/wbpXSwMU8LQ" data-type="youtube">Show Footage</button>
+                <div class="video-embed" hidden></div>
+              </li>
+              <li><span class="note">ASDesigns is working on it as a separate lower to allow function with a super safety or ARC selector, this is not yet released.
+                <button class="video-toggle" data-title="GHM9 ARC Footage" data-src="https://kg2g.github.io/FRTINFO/Footage/GHM9.mp4" data-type="video/mp4">Show Footage</button>
+                </span>
+                <div class="video-embed" hidden></div>
+              </li>
+              <li>ammjsolutions sells a GHM9 FRT mod kit that allows for Rarebreed FRT
+                <button class="video-toggle" data-title="GHM9 FRT Mod Footage" data-src="https://youtu.be/ZAYOX7Wa7Fs" data-type="youtube">Show Footage</button>
+                <button class="video-toggle" data-title="GHM9 FRT Mod Link" data-src="https://ammjsolutions.com/store/ols/products/apc9-frt-mod-kit-pc9-frt-mod-kit1" data-type="external">Show Link</button>
+                <div class="video-embed" hidden></div>
+                <div class="video-embed" hidden></div>
+              </li>
+              <li><span class="note">AMMJ X Cloak Industries X Partezan Triggers working on a drop in trigger for B&amp;T guns drop in B&amp;T trigger, APC is later
+                <button class="video-toggle" data-title="B&amp;T FRT Footage" data-src="https://kg2g.github.io/FRTINFO/Footage/B&TFRT.mp4" data-type="video/mp4">Show Footage</button>
+                </span>
+                <div class="video-embed" hidden></div>
+              </li>
+            </ul>
+          </div>
+        </div>
 
-.column {
-  flex: 1 1 0;
-  min-width: 0;
-}
+        <div>
+          <h3>B&amp;T SPC9</h3>
+          <div class="indent">
+            <ul>
+              <li>East Valley Tactical has a service that allows lowers to work with the Rarebreed trigger and uses their safety to allow usage in the OEM lower.
+                <button class="video-toggle" data-title="SPC9 Footage" data-src="https://youtu.be/wbpXSwMU8LQ" data-type="youtube">Show Footage</button>
+                <div class="video-embed" hidden></div>
+              </li>
+              <li><span class="note">ASDesigns is working on it as a separate lower to allow function with a super safety or ARC selector, this is not yet released.
+                <button class="video-toggle" data-title="SPC9 ARC Footage" data-src="https://kg2g.github.io/FRTINFO/Footage/SPC9.mp4" data-type="video/mp4">Show Footage</button>
+                </span>
+                <div class="video-embed" hidden></div>
+              </li>
+              <li><span class="note">AMMJ X Cloak Industries X Partezan Triggers working on a drop in trigger for B&amp;T guns drop in B&amp;T trigger, APC is later
+                <button class="video-toggle" data-title="B&amp;T FRT Footage" data-src="https://kg2g.github.io/FRTINFO/Footage/B&TFRT.mp4" data-type="video/mp4">Show Footage</button>
+                </span>
+                <div class="video-embed" hidden></div>
+              </li>
+            </ul>
+          </div>
+        </div>
 
-/* vertical line between sections */
-.column-left {
-  border-right: 1px solid var(--border);
-  padding-right: 12px;
-  margin-right: 0;
-}
+        <div>
+          <h3>B&amp;T APC223/300/308/6.5</h3>
+          <div class="indent">
+            <ul>
+              <li>East Valley Tactical has a service that allows lowers to work with the Rarebreed trigger and uses their safety to allow usage in the OEM lower.
+                <button class="video-toggle" data-title="APC223/300/308/6.5 Footage" data-src="https://youtu.be/wbpXSwMU8LQ" data-type="youtube">Show Footage</button>
+                <div class="video-embed" hidden></div>
+              </li>
+              <li><span class="note">ASDesigns is working on it as a separate lower to allow function with a super safety or ARC selector, this is not yet released.
+                <button class="video-toggle" data-title="APC223 ARC Footage" data-src="https://kg2g.github.io/FRTINFO/Footage/APC223.mp4" data-type="video/mp4">Show Footage</button>
+                </span>
+                <div class="video-embed" hidden></div>
+              </li>
+            </ul>
+          </div>
+        </div>
 
-.column-right {
-  padding-left: 0;
-}
+        <div>
+          <h3>PSA JAKL platform</h3>
+          <div class="indent">
+            <ul>
+              <li>Trip released by ASDesigns.
+                <button class="video-toggle" data-title="PSA JAKL Footage" data-src="https://youtu.be/3W6lVPz6Hu4" data-type="youtube">Show Footage</button>
+                <div class="video-embed" hidden></div>
+              </li>
+            </ul>
+          </div>
+        </div>
 
-.column > h1 {
-  margin-top: 0;
-  text-align: center;
-  text-decoration: underline;
-}
+        <div>
+          <h3>Kriss Vector</h3>
+          <div class="indent">
+            <ul>
+              <li>Two versions by Duality Arms Co, the two position only version or the three position version.
+                <button class="video-toggle" data-title="Kriss Vector Footage" data-src="https://youtu.be/dmR7zZWWCJk" data-type="youtube">Show Footage</button>
+                <div class="video-embed" hidden></div>
+              </li>
+              <li><span class="note">s3igu2 is working on a solution. </span></li>
+            </ul>
+          </div>
+        </div>
 
-/* Improved Video toggle button - consistent theming */
-.video-toggle {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  margin: 8px 0;
-  padding: 10px 16px;
-  border: 1px solid var(--border);
-  background: var(--bg-alt);
-  color: var(--accent-blue);
-  font: inherit;
-  font-size: 0.9em;
-  font-weight: 500;
-  cursor: pointer;
-  transition: all 0.2s ease;
-  border-radius: 6px;
-  text-decoration: none;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-}
+        <div>
+          <h3>JTS M12AR</h3>
+          <div class="indent">
+            <ul>
+              <li>A few of places for purchase.
+                <button class="video-toggle" data-title="JTS M12AR Footage" data-src="https://youtu.be/MeO1atcUBWU" data-type="youtube">Show Footage</button>
+                <div class="video-embed" hidden></div>
+              </li>
+            </ul>
+          </div>
+        </div>
 
-.video-toggle:hover {
-  background: var(--accent-blue);
-  color: var(--bg);
-  transform: translateY(-1px);
-  box-shadow: 0 4px 8px rgba(129, 162, 190, 0.3);
-}
+        <div>
+          <h3>Ruger 10/22</h3>
+          <div class="indent">
+            <ul>
+              <li>Mars Trigger has a trigger assembly design.
+                <button class="video-toggle" data-title="Mars Trigger 10/22 Footage" data-src="https://youtu.be/Cu9_gjXwtI8" data-type="youtube">Show Footage</button>
+                <div class="video-embed" hidden></div>
+              </li>
+              <li>Advanced Reset Tech makes a bar that enables FRT. Can be purchased from several vendors including themselves.
+                <button class="video-toggle" data-title="Advanced Reset Tech 10/22 Footage 1" data-src="https://youtu.be/1_3mhlu2ERo" data-type="youtube">Show Footage 1</button>
+                <button class="video-toggle" data-title="Advanced Reset Tech 10/22 Footage 2" data-src="https://youtu.be/hmaMI-uIs8g" data-type="youtube">Show Footage 2</button>
+                <div class="video-embed" hidden></div>
+                <div class="video-embed" hidden></div>
+              </li>
+              <li><span class="note">In development by Partisan Triggers</span></li>
+            </ul>
+          </div>
+        </div>
 
-.video-toggle:active {
-  transform: translateY(0);
-}
+        <div>
+          <h3>FN SCAR 16/17</h3>
+          <div class="indent">
+            <ul>
+              <li>Requires a separate lower by Imperial Arms to allow for AR FCG, it also requires a trip and the bolt modified to use the Rarebreed FRT.
+                <button class="video-toggle" data-title="SCAR 16/17 Footage" data-src="https://youtu.be/geCvdD4tGGY" data-type="youtube">Show Footage</button>
+                <div class="video-embed" hidden></div>
+              </li>
+              <li><span class="note">ASDesigns is working on a separate lower which allows for super safety and ARC.
+                <button class="video-toggle" data-title="SCAR 17 ARC Footage" data-src="https://kg2g.github.io/FRTINFO/Footage/SCAR17.mp4" data-type="video/mp4">Show Footage</button>
+                </span>
+                <div class="video-embed" hidden></div>
+              </li>
+            </ul>
+          </div>
+        </div>
 
-/* Consistent video embedding - mobile-first responsive */
-.video-embed {
-  margin: 16px 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+        <div>
+          <h3>VZ61</h3>
+          <div class="indent">
+            <ul>
+              <li>Requires a separate lower that allows for AR FCG and a super safety, these lowers are normally 3D printed.
+                <button class="video-toggle" data-title="VZ61 Footage" data-src="https://youtu.be/LSSSVJ2tWQ4" data-type="youtube">Show Footage</button>
+                <div class="video-embed" hidden></div>
+              </li>
+              <li><span class="note">There are also people working on an FRT in the standard lower.</span></li>
+            </ul>
+          </div>
+        </div>
 
-.video-embed video,
-.embed-wrap iframe {
-  width: 100%;
-  max-width: 800px;
-  height: auto;
-  aspect-ratio: 16 / 9;
-  border: 1px solid var(--border);
-  background: #000;
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
-}
+        <div>
+          <h3>Keltec P50</h3>
+          <div class="indent">
+            <ul>
+              <li>Requires the ST-50 FCG and trip from Stuff and Things Inc, the trip allows for super safety or FRT.
+                <button class="video-toggle" data-title="Keltec P50 Footage" data-src="https://kg2g.github.io/FRTINFO/Footage/KeltecP50.mp4" data-type="video/mp4">Show Footage</button>
+                <div class="video-embed" hidden></div>
+              </li>
+            </ul>
+          </div>
+        </div>
 
-.external-link-box {
-  padding: 12px 16px;
-  border: 1px solid var(--border);
-  background: var(--bg-alt);
-  border-radius: 6px;
-  margin: 12px 0;
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  transition: all 0.2s ease;
-}
+        <div>
+          <h3>HK MP5 22</h3>
+          <div class="indent">
+            <ul>
+              <li>ursa-sec.com has a drop-in FRT designed specifically for the Umarex MP5 clone
+                <button class="video-toggle" data-title="Umarex MP5 22 Footage" data-src="https://youtu.be/7ERa7vBmLag" data-type="youtube">Show Footage</button>
+                <div class="video-embed" hidden></div>
+              </li>
+              <li>Duality Arms Co released their 3D printed solution, 3 position will be later
+                <button class="video-toggle" data-title="Duality Arms MP5 22 Link" data-src="https://cults3d.com/en/3d-model/gadget/duality-arms-co-hk-mp5-22lr-mamba" data-type="external">Show Link</button>
+                <div class="video-embed" hidden></div>
+              </li>
+              <li>Released by Advanced Reset Tech.
+                <button class="video-toggle" data-title="Advanced Reset Tech MP5 22 Footage" data-src="https://kg2g.github.io/FRTINFO/Footage/mp522.mp4" data-type="video/mp4">Show Footage</button>
+                <div class="video-embed" hidden></div>
+              </li>
+            </ul>
+          </div>
+        </div>
 
-.external-link-box:hover {
-  background: var(--accent-green);
-  border-color: var(--accent-green);
-  transform: translateY(-1px);
-}
+        <div>
+          <h3>MPA Defender</h3>
+          <div class="indent">
+            <ul>
+              <li>Released as a printable component on Odyssey
+                <button class="video-toggle" data-title="MPA Defender Odyssey Link" data-src="https://odysee.com/@ToadLicker556:d/The-Twitch-(BETA)-MPA-Defender-(Mac10-11)-FRT:3" data-type="external">Show Link</button>
+                <div class="video-embed" hidden></div>
+              </li>
+              <li><span class="note">Advanced Reset Tech is making a hardened lever metal version.
+                <button class="video-toggle" data-title="MPA Defender ART Footage" data-src="https://kg2g.github.io/FRTINFO/Footage/MPAART.mp4" data-type="video/mp4">Show Footage</button>
+                </span>
+                <div class="video-embed" hidden></div>
+              </li>
+            </ul>
+          </div>
+        </div>
 
-.external-link-box a {
-  color: var(--fg);
-  font-weight: 500;
-  margin: 0;
-}
+        <div>
+          <h3>FN PS90</h3>
+          <div class="indent">
+            <ul>
+              <li>Dorin Technologies; pre-order is available now.
+                <button class="video-toggle" data-title="PS90 Dorin Footage" data-src="https://youtu.be/_pj4cnZZWFg" data-type="youtube">Show Footage</button>
+                <div class="video-embed" hidden></div>
+              </li>
+              <li>2 position solution exists, pre-order is available now by @BSquaredMfg
+                <button class="video-toggle" data-title="PS90 BSquared Footage" data-src="https://kg2g.github.io/FRTINFO/Footage/PS90.mp4" data-type="video/mp4">Show Footage</button>
+                <div class="video-embed" hidden></div>
+              </li>
+              <li><span class="note">Duality Arms Co. version is in development
+                <button class="video-toggle" data-title="PS90 RATL Footage" data-src="https://kg2g.github.io/FRTINFO/Footage/PS90-RATL-R.mp4" data-type="video/mp4">Show Footage</button>
+                </span>
+                <div class="video-embed" hidden></div>
+              </li>
+              <li><span class="note">Open source 3d printed three position version is in development.</span></li>
+            </ul>
+          </div>
+        </div>
 
-/* MOBILE: Enhanced mobile responsiveness */
-@media (max-width: 768px) {
-  .page {
-    margin: 16px auto;
-    padding: 12px 16px 32px;
-  }
+        <div>
+          <h3>Ruger PC Charger/Carbine/PC9</h3>
+          <div class="indent">
+            <ul>
+              <li>Pre-order available by Mars Trigger.
+                <button class="video-toggle" data-title="Ruger PC9 Mars Trigger Footage" data-src="https://youtu.be/Ce4Odvha2hw" data-type="youtube">Show Footage</button>
+                <div class="video-embed" hidden></div>
+              </li>
+              <li><span class="note">In development by @Show me ordnance on YT
+                <button class="video-toggle" data-title="Ruger PC9 Show Me Ordnance Footage" data-src="https://youtu.be/TW95c8s6cMs" data-type="youtube">Show Footage</button>
+                </span>
+                <div class="video-embed" hidden></div>
+              </li>
+              <li><span class="note">In development by Advanced Reset Tech.
+                <button class="video-toggle" data-title="Ruger PC9 ART Footage" data-src="https://kg2g.github.io/FRTINFO/Footage/RUGERPC9FRT.mp4" data-type="video/mp4">Show Footage</button>
+                </span>
+                <div class="video-embed" hidden></div>
+              </li>
+            </ul>
+          </div>
+        </div>
 
-  .two-columns {
-    flex-direction: column;
-    gap: 16px;
-  }
+        <div>
+          <h3>DB9 Alloy</h3>
+          <div class="indent">
+            <ul>
+              <li>Mac 11 upper with 3D printed lower which allows for AR-15 FCG and super safety capability.
+                <button class="video-toggle" data-title="DB9 Alloy Footage" data-src="https://youtu.be/mI-JgR7fbg0" data-type="youtube">Show Footage</button>
+                <div class="video-embed" hidden></div>
+              </li>
+            </ul>
+          </div>
+        </div>
 
-  .column-left {
-    border-right: none;
-    padding-right: 0;
-    margin-right: 0;
-    border-bottom: 1px solid var(--border);
-    padding-bottom: 16px;
-    margin-bottom: 16px;
-  }
+        <div>
+          <h3>HK G36/SL8</h3>
+          <div class="indent">
+            <ul>
+              <li>3 position separate 3D printed trigger pack by gdi-3d.
+                <button class="video-toggle" data-title="G36/SL8 gdi-3d Footage" data-src="https://kg2g.github.io/FRTINFO/Footage/G36.mp4" data-type="video/mp4">Show Footage</button>
+                <button class="video-toggle" data-title="G36/SL8 gdi-3d Link" data-src="https://gdi-3d.com/products/g36-sl8-frt-trigger-pack" data-type="external">Show Link</button>
+                <div class="video-embed" hidden></div>
+                <div class="video-embed" hidden></div>
+              </li>
+              <li><span class="note">In development by @BSquaredMfg. 3 position Cassette/drop in trigger for factory G36 lowers. No modification to receivers. Works in converted SL8s and TG36's. Uses the factory trigger sear for a near identical feeling trigger.
+                <button class="video-toggle" data-title="G36 Drop-in Footage 1" data-src="https://kg2g.github.io/FRTINFO/Footage/G36DROPIN.mp4" data-type="video/mp4">Show Footage 1</button>
+                <button class="video-toggle" data-title="G36 Drop-in Footage 2" data-src="https://kg2g.github.io/FRTINFO/Footage/G36DROPIN2.mp4" data-type="video/mp4">Show Footage 2</button>
+                </span>
+                <div class="video-embed" hidden></div>
+                <div class="video-embed" hidden></div>
+              </li>
+            </ul>
+          </div>
+        </div>
 
-  .column-right {
-    padding-left: 0;
-  }
+        <div>
+          <h3>HK UMP (HKP Kit/S5 Tactical, Clones, and USC conversions)</h3>
+          <div class="indent">
+            <ul>
+              <li>Separate 3D printed trigger pack by gdi-3d that allows for super safety usage.
+                <button class="video-toggle" data-title="UMP45 gdi-3d Footage" data-src="https://kg2g.github.io/FRTINFO/Footage/UMP45.mp4" data-type="video/mp4">Show Footage</button>
+                <button class="video-toggle" data-title="gdi-3d UMP Link" data-src="https://gdi-3d.com/collections/all" data-type="external">Show Link</button>
+                <div class="video-embed" hidden></div>
+                <div class="video-embed" hidden></div>
+              </li>
+              <li><span class="note">ASDesigns is working on it.</span></li>
+              <li><span class="note">@BSquaredMfg is developing a FRT that uses the factory housing.</span></li>
+            </ul>
+          </div>
+        </div>
 
-  .indent {
-    margin-left: 20px;
-  }
+        <div>
+          <h3>MG42</h3>
+          <div class="indent">
+            <ul>
+              <li>Little information about this is avaliable, requires a bolt mod and a gripstick mod to fit a rare breed trigger. All footage is by @MakoMakt on x.com
+                <button class="video-toggle" data-title="MG42 Footage 1" data-src="https://kg2g.github.io/FRTINFO/Footage/MG42-1.mp4" data-type="video/mp4">Show Footage 1</button>
+                <button class="video-toggle" data-title="MG42 Footage 2" data-src="https://kg2g.github.io/FRTINFO/Footage/MG42-2.mp4" data-type="video/mp4">Show Footage 2</button>
+                <button class="video-toggle" data-title="MG42 Footage 3" data-src="https://kg2g.github.io/FRTINFO/Footage/MG42-3.mp4" data-type="video/mp4">Show Footage 3</button>
+                <div class="video-embed" hidden></div>
+                <div class="video-embed" hidden></div>
+                <div class="video-embed" hidden></div>
+              </li>
+            </ul>
+          </div>
+        </div>
 
-  /* Mobile video - full width, touch-friendly buttons */
-  .video-toggle {
-    width: 100%;
-    max-width: 300px;
-    justify-content: center;
-    padding: 12px 20px;
-    font-size: 1em;
-    margin: 12px auto;
-    display: block;
-  }
+        <div>
+          <h3>Thompson</h3>
+          <div class="indent">
+            <ul>
+              <li>Released by Kinetic Crossfire
+                <button class="video-toggle" data-title="Thompson Kinetic Crossfire Footage" data-src="https://youtu.be/CQaQhBUHtGc" data-type="youtube">Show Footage</button>
+                <div class="video-embed" hidden></div>
+              </li>
+              <li><span class="note">One of the ASDesigns developers @_009515 showed footage of their FRT for the platform, unsure if ASDesigns will take it up as a project
+                <button class="video-toggle" data-title="Thompson 009515 Footage" data-src="https://kg2g.github.io/FRTINFO/Footage/Thompson.mp4" data-type="video/mp4">Show Footage</button>
+                </span>
+                <div class="video-embed" hidden></div>
+              </li>
+              <li><span class="note">Duality Arms Co is working on a solution for the Auto Ordnance 1927A1</span></li>
+            </ul>
+          </div>
+        </div>
 
-  .video-embed video,
-  .embed-wrap iframe {
-    max-width: 100%;
-    border-radius: 6px;
-  }
+        <div>
+          <h3>Beretta CX4</h3>
+          <div class="indent">
+            <ul>
+              <li>Available for pre-order now by brellosolutions.us.
+                <button class="video-toggle" data-title="Beretta CX4 Footage" data-src="https://kg2g.github.io/FRTINFO/Footage/Beretta-CX4.mp4" data-type="video/mp4">Show Footage</button>
+                <div class="video-embed" hidden></div>
+              </li>
+            </ul>
+          </div>
+        </div>
 
-  .external-link-box {
-    width: 100%;
-    justify-content: center;
-  }
-}
+        <div>
+          <h3>Genesis Gen-12</h3>
+          <div class="indent">
+            <ul>
+              <li>East Valley Tactical has a service which allows for FRT usage. Requires machining of the firearm.
+                <button class="video-toggle" data-title="Genesis Gen-12 Footage" data-src="https://kg2g.github.io/FRTINFO/Footage/Genesis-Gen-12.mp4" data-type="video/mp4">Show Footage</button>
+                <div class="video-embed" hidden></div>
+              </li>
+              <li><span class="note">s3igu2 developing lever that works with the ARC Fire and Gen-12 without any machining.
+                <button class="video-toggle" data-title="Gen-12 ARC Footage" data-src="https://kg2g.github.io/FRTINFO/Footage/GEN12ARC1.mp4" data-type="video/mp4">Show Footage</button>
+                </span>
+                <div class="video-embed" hidden></div>
+              </li>
+            </ul>
+          </div>
+        </div>
 
-@media (max-width: 480px) {
-  .video-toggle {
-    padding: 14px 24px;
-    font-size: 1.1em;
-  }
-}
+        <div>
+          <h3>Stribog platform</h3>
+          <div class="indent">
+            <ul>
+              <li>Some people have got this to work with a super safety and ARC with Lingle lower. This seems to require a cut in the upper. There are services avaliable for this work to be done as well.</li>
+              <li><span class="note">ASDesigns is working on a different option, which requires a separate lower
+                <button class="video-toggle" data-title="Stribog ARC Footage" data-src="https://kg2g.github.io/FRTINFO/Footage/STRIBOG.mp4" data-type="video/mp4">Show Footage</button>
+                </span>
+                <div class="video-embed" hidden></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        
+      </div> <!-- END LEFT -->
+
+      <!-- RIGHT: IN DEVELOPMENT -->
+      <div class="column column-right">
+        <h1>IN DEVELOPMENT</h1>
+       
+        <div>
+          <h3>AP53</h3>
+          <div class="indent">
+            <ul>
+              <li>ASDesigns is also working on a drop in variant that works in standard HK lowers.
+                <button class="video-toggle" data-title="AP53 ARC Footage" data-src="https://kg2g.github.io/FRTINFO/Footage/ARKHAP53.mp4" data-type="video/mp4">Show Footage</button>
+                <div class="video-embed" hidden></div>
+              </li>
+              <li>Parabellum Combat Systems is also working on a drop in variant that works in standard lowers.
+                <button class="video-toggle" data-title="AP53 Parabellum Footage" data-src="https://youtu.be/jw7RiAgzTFY" data-type="youtube">Show Footage</button>
+                <div class="video-embed" hidden></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div>
+          <h3>HK G3/91</h3>
+          <div class="indent">
+            <ul>
+              <li>ASDesigns is working on a drop in variant that works in standard OEM lowers.
+                <button class="video-toggle" data-title="HK G3/91 Footage" data-src="https://kg2g.github.io/FRTINFO/Footage/ARHKG3.mp4" data-type="video/mp4">Show Footage</button>
+                <div class="video-embed" hidden></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div>
+          <h3>BRN-180</h3>
+          <div class="indent">
+            <ul>
+              <li>ASDesigns is working on it.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div>
+          <h3>CMMG Dissent platform</h3>
+          <div class="indent">
+            <ul>
+              <li>ASDesigns is working on a slip trip.
+                <button class="video-toggle" data-title="CMMG Dissent Footage" data-src="https://kg2g.github.io/FRTINFO/Footage/CMMGDISSENT.mp4" data-type="video/mp4">Show Footage</button>
+                <div class="video-embed" hidden></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div>
+          <h3>CZ Scorpion</h3>
+          <div class="indent">
+            <ul>
+              <li>Nexus Firearms is working on it to allow function with the Rarebreed trigger.
+                <button class="video-toggle" data-title="CZ Scorpion Nexus Footage" data-src="https://youtu.be/RsGceOia_D4" data-type="youtube">Show Footage</button>
+                <div class="video-embed" hidden></div>
+              </li>
+              <li>Teased by Duality Arms Co</li>
+            </ul>
+          </div>
+        </div>
+
+        <div>
+          <h3>CZ BREN 2</h3>
+          <div class="indent">
+            <ul>
+              <li>Nexus Firearms is working on it to allow function with the Rarebreed trigger, this is a separate lower.
+                <button class="video-toggle" data-title="CZ BREN 2 Footage" data-src="https://kg2g.github.io/FRTINFO/Footage/CZBREN2.mp4" data-type="video/mp4">Show Footage</button>
+                <div class="video-embed" hidden></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div>
+          <h3>SIG P320</h3>
+          <div class="indent">
+            <ul>
+              <li>An anon in the thread has a working model that's selectable and also is waiting for an ATF letter.
+                <button class="video-toggle" data-title="SIG P320 Footage" data-src="https://kg2g.github.io/FRTINFO/Footage/P320.mp4" data-type="video/mp4">Show Footage</button>
+                <div class="video-embed" hidden></div>
+              </li>
+              <li>The other solution is teased by Duality Arms Co.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div>
+          <h3>FN M249S</h3>
+          <div class="indent">
+            <ul>
+              <li>ASDesigns is working on it; requires separate lower
+                <button class="video-toggle" data-title="M249 ASDesigns Footage" data-src="https://kg2g.github.io/FRTINFO/Footage/M249.mp4" data-type="video/mp4">Show Footage</button>
+                <div class="video-embed" hidden></div>
+              </li>
+              <li>Customsmithmfg also has one in development
+                <button class="video-toggle" data-title="M249 Customsmithmfg Footage" data-src="https://kg2g.github.io/FRTINFO/Footage/customsmithmfg-m249frt.mp4" data-type="video/mp4">Show Footage</button>
+                <div class="video-embed" hidden></div>
+              </li>
+              <li>In development by Partisan Triggers</li>
+              <li>Open source 3D printed version in development</li>
+              <li>M240 SS dev confirmed development for the platform as well</li>
+              <li>Richard Warrington is working on his solution that uses a Rarebreed trigger
+                <button class="video-toggle" data-title="M249 Warrington Footage" data-src="https://youtu.be/4WaUjmJLcKE" data-type="youtube">Show Footage</button>
+                <div class="video-embed" hidden></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div>
+          <h3>B&amp;T TP9</h3>
+          <div class="indent">
+            <ul>
+              <li>Duality Arms Co is working on a solution.</li>
+              <li>Teased by Midnight Machine.
+                <button class="video-toggle" data-title="B&amp;T TP9 Midnight Machine Link" data-src="https://midnightmachine.store/products/b-t-tp9-fr9-kit" data-type="external">Show Link</button>
+                <div class="video-embed" hidden></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div>
+          <h3>B&amp;T KH9</h3>
+          <div class="indent">
+            <ul>
+              <li>East Valley Tactical will release support soon.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div>
+          <h3>VZ58</h3>
+          <div class="indent">
+            <ul>
+              <li>An anon in the thread is working on it, 3 position as well.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div>
+          <h3>FAL</h3>
+          <div class="indent">
+            <ul>
+              <li>In development by Partisan Triggers</li>
+            </ul>
+          </div>
+        </div>
+
+        <div>
+          <h3>Matador Arms AR9 uppers</h3>
+          <div class="indent">
+            <ul>
+              <li>Matador Arms is working on a trip to allow for Atrius selector usage.
+                <button class="video-toggle" data-title="Matador AR9 Footage" data-src="https://kg2g.github.io/FRTINFO/Footage/MatadorArms.mp4" data-type="video/mp4">Show Footage</button>
+                <div class="video-embed" hidden></div>
+              </li>
+              <li>KM3 Solutions is working on a trip</li>
+            </ul>
+          </div>
+        </div>
+
+        <div>
+          <h3>SKS</h3>
+          <div class="indent">
+            <ul>
+              <li>Texas Trigger USA is working on it for Norinco SKSs, no permanent modification required.
+                <button class="video-toggle" data-title="SKS Texas Trigger Footage" data-src="https://kg2g.github.io/FRTINFO/Footage/SKSFRT.mp4" data-type="video/mp4">Show Footage</button>
+                <div class="video-embed" hidden></div>
+              </li>
+              <li>Hush Holsters are working on it.
+                <button class="video-toggle" data-title="SKS Hush Holsters Footage" data-src="https://youtu.be/9PfG3M0wA20" data-type="youtube">Show Footage</button>
+                <div class="video-embed" hidden></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div>
+          <h3>FN M240</h3>
+          <div class="indent">
+            <ul>
+              <li>By @m240brrrrr on x.com
+                <button class="video-toggle" data-title="M240 Footage 1" data-src="https://kg2g.github.io/FRTINFO/Footage/m240_2.mp4" data-type="video/mp4">Show Footage 1</button>
+                <button class="video-toggle" data-title="M240 Footage 2" data-src="https://kg2g.github.io/FRTINFO/Footage/m240_1.mp4" data-type="video/mp4">Show Footage 2</button>
+                <div class="video-embed" hidden></div>
+                <div class="video-embed" hidden></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div>
+          <h3>Keltech CP33</h3>
+          <div class="indent">
+            <ul>
+              <li>Advanced Reset Tech is working on a solution.
+                <button class="video-toggle" data-title="CP33 Footage" data-src="https://kg2g.github.io/FRTINFO/Footage/CP33.mp4" data-type="video/mp4">Show Footage</button>
+                <div class="video-embed" hidden></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div>
+          <h3>Ruger Mini-14</h3>
+          <div class="indent">
+            <ul>
+              <li>One of the ASDesigns developers @_009515 showed footage of their FRT for the platform, unsure if ASDesigns will take it up as a project
+                <button class="video-toggle" data-title="Mini-14 Footage" data-src="https://kg2g.github.io/FRTINFO/Footage/MINI14FRT.mp4" data-type="video/mp4">Show Footage</button>
+                <div class="video-embed" hidden></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div>
+          <h3>Free State Gun Co. SAS-9</h3>
+          <div class="indent">
+            <ul>
+              <li>FRT capability is being worked on.
+                <button class="video-toggle" data-title="SAS-9 Footage" data-src="https://kg2g.github.io/FRTINFO/Footage/SAS9.mp4" data-type="video/mp4">Show Footage</button>
+                <div class="video-embed" hidden></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div>
+          <h3>LWRC SMG 45</h3>
+          <div class="indent">
+            <ul>
+              <li>Frankenstein Armory is releasing a trip that allows for a Rarebreed functionality
+                <button class="video-toggle" data-title="LWRC SMG45 Footage" data-src="https://kg2g.github.io/FRTINFO/Footage/LWRC-SMG45.mp4" data-type="video/mp4">Show Footage</button>
+                <div class="video-embed" hidden></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div>
+          <h3>RPD</h3>
+          <div class="indent">
+            <ul>
+              <li>Developed by Niche Tactical, looks to be a seperate lower that allows for super safety usage. Images shown by @nichetactical on IG.</li>
+            </ul>
+          </div>
+        </div>
+        
+        <div>
+          <h3>Keltec CMR30/PMR30</h3>
+          <div class="indent">
+            <ul>
+              <li>Developed by Advanced Reset Tech
+                <button class="video-toggle" data-title="PMR30/CMR30 Footage" data-src="https://kg2g.github.io/FRTINFO/Footage/PMR30-CMR30.mp4" data-type="video/mp4">Show Footage</button>
+                <div class="video-embed" hidden></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        
+        <div>
+          <h3>MAC IX</h3>
+          <div class="indent">
+            <ul>
+              <li>In development by 009515 on reddit.com; Designed a new slip for it for usage of the ARC V2
+                <button class="video-toggle" data-title="MAC IX Footage" data-src="https://kg2g.github.io/FRTINFO/Footage/MACIX.mp4" data-type="video/mp4">Show Footage</button>
+                <div class="video-embed" hidden></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        
+        <div>
+          <h3>Panzer Arms AK12</h3>
+          <div class="indent">
+            <ul>
+              <li>In development by Duality Arms Co
+                <button class="video-toggle" data-title="Panzer Arms AK12 Footage" data-src="https://kg2g.github.io/FRTINFO/Footage/PanzerArmsAK12.mp4" data-type="video/mp4">Show Footage</button>
+                <div class="video-embed" hidden></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div>
+          <h3>Beretta PMX</h3>
+          <div class="indent">
+            <ul>
+              <li>In development by Brello Solutions.</li>
+            </ul>
+          </div>
+        </div>
+
+      </div> <!-- END RIGHT -->
+    </div>
+  </div>
+
+  <script>
+    function youtubeId(url) {
+      try {
+        const u = new URL(url);
+        if (u.hostname.includes('youtu.be')) return u.pathname.replace('/', '');
+        if (u.searchParams.get('v')) return u.searchParams.get('v');
+      } catch (e) {}
+      // fallback: last path segment
+      return url.split('/').pop();
+    }
+
+    document.querySelectorAll('.video-toggle').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const box = btn.nextElementSibling;
+        const src = btn.dataset.src;
+        const type = btn.dataset.type || 'video/mp4';
+        const title = btn.dataset.title || 'Footage';
+        const isOpen = !box.hidden;
+
+        if (!box.dataset.loaded) {
+          if (type === 'youtube' || src.includes('youtu')) {
+            const id = youtubeId(src);
+            box.innerHTML = `
+              <div class="embed-wrap">
+                <iframe src="https://www.youtube.com/embed/${id}"
+                        title="${title}"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+              </div>`;
+          } else if (type === 'external') {
+            box.innerHTML = `
+              <div class="external-link-box">
+                <a href="${src}" target="_blank" rel="noopener">${title}</a>
+              </div>`;
+          } else {
+            box.innerHTML = `
+              <video controls playsinline>
+                <source src="${src}" type="${type}">
+                Your browser does not support the video tag.
+              </video>`;
+          }
+          box.dataset.loaded = '1';
+        }
+
+        box.hidden = isOpen;
+        btn.textContent = isOpen ? 'Show Footage' : 'Hide Footage';
+        if (type === 'external' && isOpen) {
+          btn.textContent = 'Show Link';
+        }
+      });
+    });
+  </script>
+</body>
+</html>
