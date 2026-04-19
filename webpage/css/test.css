@@ -203,6 +203,8 @@ hr {
   margin: 12px 0 16px;
   width: 100%;
   max-width: 100%;
+  display: block;
+  box-sizing: border-box;
 }
 
 .video-embed video,
@@ -215,13 +217,14 @@ hr {
   border: 1px solid var(--border);
   background: #000;
   border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.45);
   box-sizing: border-box;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.45);
 }
 
 .embed-wrap {
   width: 100%;
   max-width: 100%;
+  box-sizing: border-box;
 }
 
 .video-embed video {
