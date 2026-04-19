@@ -71,11 +71,23 @@
           <div style="margin-left: 40px;">
             <ul>
               <li>Grey Market Research has super safety sets for AR-10. 🔗 <a href="https://kg2g.github.io/FRTINFO/Footage/AR308.mp4">Footage</a></li>
+              
+              <button onclick="toggleVideo()" class="video-btn">Show Video</button>
 
-              <video width="800" controls>
-  <source src="https://kg2g.github.io/FRTINFO/Footage/AR308.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<div id="videoBox" style="display:none; margin-top:12px;">
+  <video width="800" controls>
+    <source src="https://kg2g.github.io/FRTINFO/Footage/AR308.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+<script>
+  function toggleVideo() {
+    const box = document.getElementById("videoBox");
+    box.style.display = box.style.display === "none" ? "block" : "none";
+  }
+</script>
+              
             </ul>
           </div>
         </div>
