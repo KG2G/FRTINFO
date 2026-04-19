@@ -163,39 +163,55 @@ hr {
   display: inline-block;
   margin-left: 6px;
   margin-top: 4px;
-  padding: 4px 8px;
-  border-radius: 4px;
+  padding: 6px 12px;
+  border-radius: 6px;
   border: 1px solid var(--border);
-  background: #22252a;
-  color: var(--accent-blue);
+  background: var(--accent-blue);
+  color: var(--bg);
   font: inherit;
+  font-size: 0.9em;
   cursor: pointer;
+  transition: all 0.15s ease;
 }
 .video-toggle:hover {
-  background: #2d3137;
+  background: var(--accent-orange);
+  transform: translateY(-1px);
 }
 
 /* Embedded video / iframe / external link box */
 .video-embed {
-  margin-top: 8px;
+  margin-top: 12px;
+  margin-bottom: 12px;
 }
 
 .video-embed video,
 .embed-wrap iframe {
   display: block;
-  width: min(100%, 720px);
-  aspect-ratio: 16 / 9;
+  width: 100%;
+  max-width: 720px;
   height: auto;
+  aspect-ratio: 16 / 9;
   border: 1px solid var(--border);
   background: #000;
+  border-radius: 6px;
+  margin: 0 auto;
+  display: block;
 }
 
 .external-link-box {
-  padding: 8px 10px;
+  padding: 12px 16px;
   border: 1px solid var(--border);
   background: #1c1e22;
+  border-radius: 6px;
+  margin: 8px 0;
   display: inline-block;
 }
+
+.external-link-box a {
+  color: var(--accent-green);
+  font-weight: 500;
+}
+
 
 /* MOBILE: stack columns */
 @media (max-width: 768px) {
