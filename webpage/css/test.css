@@ -202,23 +202,26 @@ hr {
 .video-embed {
   margin: 12px 0 16px;
   width: 100%;
-  max-width: 800px;
+  max-width: 100%;
 }
 
 .video-embed video,
 .embed-wrap iframe {
   display: block;
   width: 100%;
+  max-width: 100%;
   aspect-ratio: 16 / 9;
   height: auto;
   border: 1px solid var(--border);
   background: #000;
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.45);
+  box-sizing: border-box;
 }
 
 .embed-wrap {
   width: 100%;
+  max-width: 100%;
 }
 
 .video-embed video {
