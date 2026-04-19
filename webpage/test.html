@@ -984,7 +984,6 @@
         if (u.hostname.includes('youtu.be')) return u.pathname.replace('/', '');
         if (u.searchParams.get('v')) return u.searchParams.get('v');
       } catch (e) {}
-      // fallback: last path segment
       return url.split('/').pop();
     }
 
