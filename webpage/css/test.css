@@ -115,6 +115,7 @@ img {
   max-width: 100%;
   height: auto;
   border: 1px solid var(--border);
+  display: block;
 }
 
 /* Horizontal rule */
@@ -144,7 +145,7 @@ hr {
 /* vertical line between sections */
 .column-left {
   border-right: 1px solid var(--border);
-  padding-right: 12px;  /* keep inner space before the border */
+  padding-right: 12px;
   margin-right: 0;
 }
 
@@ -158,65 +159,107 @@ hr {
   text-decoration: underline;
 }
 
-/* Video toggle button */
+/* Video toggle button - theme matched */
 .video-toggle {
-  display: inline-block;
-  margin-left: 6px;
-  margin-top: 4px;
-  padding: 6px 12px;
-  border-radius: 6px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  margin: 8px 0;
+  padding: 10px 16px;
   border: 1px solid var(--border);
-  background: var(--accent-blue);
-  color: var(--bg);
+  background: var(--bg-alt);
+  color: var(--accent-blue);
   font: inherit;
-  font-size: 0.9em;
+  font-size: 0.95em;
+  font-weight: 600;
   cursor: pointer;
-  transition: all 0.15s ease;
-}
-.video-toggle:hover {
-  background: var(--accent-orange);
-  transform: translateY(-1px);
+  transition: background 0.2s ease, color 0.2s ease, transform 0.15s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+  border-radius: 6px;
+  text-decoration: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+  vertical-align: middle;
 }
 
-/* Embedded video / iframe / external link box */
+.video-toggle:hover {
+  background: var(--accent-blue);
+  color: var(--bg);
+  border-color: var(--accent-blue);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 10px rgba(129, 162, 190, 0.28);
+}
+
+.video-toggle:active {
+  transform: translateY(0);
+}
+
+.video-toggle:focus-visible {
+  outline: 2px solid var(--accent-yellow);
+  outline-offset: 2px;
+}
+
+/* Video embedding */
 .video-embed {
-  margin-top: 12px;
-  margin-bottom: 12px;
+  margin: 12px 0 16px;
+  width: 100%;
+  max-width: 800px;
 }
 
 .video-embed video,
 .embed-wrap iframe {
   display: block;
   width: 100%;
-  max-width: 720px;
-  height: auto;
   aspect-ratio: 16 / 9;
+  height: auto;
   border: 1px solid var(--border);
   background: #000;
-  border-radius: 6px;
-  margin: 0 auto;
-  display: block;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.45);
 }
 
+.embed-wrap {
+  width: 100%;
+}
+
+.video-embed video {
+  object-fit: contain;
+}
+
+/* External link box */
 .external-link-box {
   padding: 12px 16px;
   border: 1px solid var(--border);
-  background: #1c1e22;
+  background: var(--bg-alt);
   border-radius: 6px;
-  margin: 8px 0;
-  display: inline-block;
+  margin: 12px 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: background 0.2s ease, border-color 0.2s ease, transform 0.15s ease;
+}
+
+.external-link-box:hover {
+  background: rgba(181, 189, 104, 0.12);
+  border-color: var(--accent-green);
+  transform: translateY(-1px);
 }
 
 .external-link-box a {
   color: var(--accent-green);
   font-weight: 500;
+  margin: 0;
 }
 
-
-/* MOBILE: stack columns */
+/* MOBILE: stack columns and keep videos usable */
 @media (max-width: 768px) {
+  .page {
+    margin: 16px auto;
+    padding: 12px 16px 32px;
+  }
+
   .two-columns {
     flex-direction: column;
+    gap: 16px;
   }
 
   .column-left {
@@ -224,8 +267,8 @@ hr {
     padding-right: 0;
     margin-right: 0;
     border-bottom: 1px solid var(--border);
-    padding-bottom: 12px;
-    margin-bottom: 12px;
+    padding-bottom: 16px;
+    margin-bottom: 16px;
   }
 
   .column-right {
@@ -233,11 +276,49 @@ hr {
   }
 
   .indent {
-    margin-left: 16px;
+    margin-left: 20px;
   }
 
   .video-toggle {
-    margin-left: 0;
-    margin-top: 6px;
+    width: 100%;
+    max-width: 100%;
+    justify-content: center;
+    padding: 12px 16px;
+    font-size: 1em;
+    margin: 10px 0;
+  }
+
+  .video-embed,
+  .embed-wrap,
+  .video-embed video,
+  .embed-wrap iframe {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .video-embed video,
+  .embed-wrap iframe {
+    border-radius: 6px;
+  }
+
+  .external-link-box {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .page {
+    margin: 10px auto;
+    padding: 10px 12px 24px;
+  }
+
+  .video-toggle {
+    padding: 13px 14px;
+    font-size: 1.02em;
+  }
+
+  .indent {
+    margin-left: 12px;
   }
 }
