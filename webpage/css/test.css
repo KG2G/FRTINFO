@@ -46,10 +46,9 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
 }
 
-#note {
-  color: var(--accent-yellow)
+.note {
+  color: var(--accent-yellow);
 }
-
 
 p {
   margin: 0.5em 0;
@@ -125,6 +124,11 @@ hr {
   margin: 1.5em 0;
 }
 
+/* Indent helper */
+.indent {
+  margin-left: 40px;
+}
+
 /* Two-column layout for Released / In Development */
 .two-columns {
   display: flex;
@@ -141,19 +145,57 @@ hr {
 .column-left {
   border-right: 1px solid var(--border);
   padding-right: 12px;  /* keep inner space before the border */
-  margin-right: 0;      /* remove this so the total isn’t skewed */
+  margin-right: 0;
 }
 
 .column-right {
-  padding-left: 0px;   /* matches the inner spacing of the left column */
+  padding-left: 0;
 }
 
 .column > h1 {
-  margin-top: 0;              /* optional: pulls them up a bit */
+  margin-top: 0;
   text-align: center;
   text-decoration: underline;
 }
 
+/* Video toggle button */
+.video-toggle {
+  display: inline-block;
+  margin-left: 6px;
+  margin-top: 4px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+  background: #22252a;
+  color: var(--accent-blue);
+  font: inherit;
+  cursor: pointer;
+}
+.video-toggle:hover {
+  background: #2d3137;
+}
+
+/* Embedded video / iframe / external link box */
+.video-embed {
+  margin-top: 8px;
+}
+
+.video-embed video,
+.embed-wrap iframe {
+  display: block;
+  width: min(100%, 720px);
+  aspect-ratio: 16 / 9;
+  height: auto;
+  border: 1px solid var(--border);
+  background: #000;
+}
+
+.external-link-box {
+  padding: 8px 10px;
+  border: 1px solid var(--border);
+  background: #1c1e22;
+  display: inline-block;
+}
 
 /* MOBILE: stack columns */
 @media (max-width: 768px) {
@@ -165,12 +207,21 @@ hr {
     border-right: none;
     padding-right: 0;
     margin-right: 0;
-    border-bottom: 1px solid var(--border); /* horizontal divider instead */
+    border-bottom: 1px solid var(--border);
     padding-bottom: 12px;
     margin-bottom: 12px;
   }
 
   .column-right {
     padding-left: 0;
+  }
+
+  .indent {
+    margin-left: 16px;
+  }
+
+  .video-toggle {
+    margin-left: 0;
+    margin-top: 6px;
   }
 }
