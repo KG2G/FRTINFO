@@ -278,14 +278,28 @@ hr {
     margin-left: 20px;
   }
 
-  .video-toggle {
-    width: 100%;
-    max-width: 100%;
-    justify-content: center;
-    padding: 12px 16px;
-    font-size: 1em;
-    margin: 10px 0;
-  }
+.video-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin: 6px 0;
+  padding: 6px 12px;
+  background: transparent;
+  border: 1px solid #373b41;
+  border-radius: 4px;
+  color: #81a2be;
+  font: inherit;
+  font-size: 0.9em;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s, border-color 0.2s;
+}
+
+.video-toggle:hover {
+  background: #81a2be;
+  color: #1d1f21;
+  border-color: #81a2be;
+}
 
   .video-embed,
   .embed-wrap {
