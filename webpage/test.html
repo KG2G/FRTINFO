@@ -1021,6 +1021,30 @@ document.querySelectorAll(".video-toggle").forEach(button => {
 });
 </script>
 
+<style>
+  .embed-wrap {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    aspect-ratio: 16/9;
+    overflow: hidden;
+    background: #000;
+    border-radius: 8px;
+    box-sizing: border-box;
+    margin: 8px 0;
+  }
+  .embed-wrap video,
+  .embed-wrap iframe {
+    position: absolute;
+    inset: 0;
+    width: 100% !important;
+    height: 100% !important;
+    max-width: 100% !important;
+    border: 0;
+    display: block !important;
+  }
+</style>
+
   
 </body>
 </html>
