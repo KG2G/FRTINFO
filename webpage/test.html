@@ -987,7 +987,7 @@ document.querySelectorAll(".video-toggle").forEach(button => {
   button.addEventListener("click", () => {
     const box = button.nextElementSibling;
     const title = button.dataset.title;
-    const src = button.dataset.src;
+    let src = button.dataset.src;
     const type = button.dataset.type;
 
     if (!box.hasAttribute("hidden") && box.innerHTML.trim() !== "") {
@@ -996,14 +996,26 @@ document.querySelectorAll(".video-toggle").forEach(button => {
       return;
     }
 
-    box.innerHTML = `
-      <div class="embed-wrap">
-        ${type.startsWith("video/")
-          ? `<video controls src="${src}" title="${title}"></video>`
-          : `<iframe src="${src}" title="${title}" allowfullscreen></iframe>`
-        }
-      </div>
-    `;
+    // Convert any YouTube URL format to embed
+    if (type === "youtube") {
+      const match = src.match(/(?:youtu\.be\/|youtube\.com\/(?:watch\?v=|embed\/))([a-zA-Z0-9_-]{11})/);
+      if (match) src = `https://www.youtube.com/embed/${match[1]}`;
+    }
+
+    if (type === "external") {
+      box.innerHTML = `
+        <div class="external-link-box">
+          <span>🔗</span><a href="${src}" target="_blank" rel="noopener">${title}</a>
+        </div>`;
+    } else {
+      box.innerHTML = `
+        <div class="embed-wrap">
+          ${type.startsWith("video/")
+            ? `<video controls src="${src}" title="${title}"></video>`
+            : `<iframe src="${src}" title="${title}" allowfullscreen></iframe>`
+          }
+        </div>`;
+    }
     box.removeAttribute("hidden");
   });
 });
