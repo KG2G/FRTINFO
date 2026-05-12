@@ -196,6 +196,7 @@ hr {
   max-width: 100%;
   margin: 10px 0 0;
   min-width: 0;
+  clear: both;
 }
 
 .video-embed[hidden] {
@@ -299,6 +300,7 @@ hr {
 
   .embed-wrap {
     border-radius: 6px;
+    height: 200px;
   }
 
   .external-link-box {
@@ -321,5 +323,9 @@ hr {
 
   .indent {
     margin-left: 12px;
+  }
+
+  .embed-wrap {
+    height: 180px;
   }
 }
