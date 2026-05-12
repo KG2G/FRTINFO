@@ -197,14 +197,16 @@ hr {
 }
 
 .embed-wrap {
+  width: 100%;
+  max-width: 480px;
+  aspect-ratio: 16 / 9;
   position: relative;
-  width: 100%;        /* was 320px */
-  height: 180px;
   overflow: hidden;
   border: 1px solid var(--border);
   background: #000;
   border-radius: 8px;
   box-sizing: border-box;
+  margin: 8px 0;
 }
 
 .embed-wrap iframe,
@@ -215,6 +217,7 @@ hr {
   height: 100%;
   border: 0;
   display: block;
+  max-width: 100%;
 }
 
 .external-link-box {
