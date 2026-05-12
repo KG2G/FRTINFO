@@ -983,46 +983,53 @@
 
 
 <script>
-document.querySelectorAll(".video-toggle").forEach(button => {
-  const originalText = button.textContent.trim();
-  button.innerHTML = `▶ ${originalText}`;
+document.querySelectorAll("li").forEach(li => {
+  const buttons = li.querySelectorAll(".video-toggle");
+  const boxes = li.querySelectorAll(".video-embed");
 
-  button.addEventListener("click", () => {
-    const box = button.nextElementSibling;
-    const title = button.dataset.title;
-    let src = button.dataset.src;
-    const type = button.dataset.type;
-    const isOpen = !box.hasAttribute("hidden") && box.innerHTML.trim() !== "";
+  buttons.forEach((button, i) => {
+    const box = boxes[i];
+    if (!box) return;
 
-    if (isOpen) {
-      box.setAttribute("hidden", "");
-      box.innerHTML = "";
-      button.innerHTML = `▶ ${originalText}`;
-      return;
-    }
+    const originalText = button.textContent.trim();
+    button.innerHTML = `▶ ${originalText}`;
 
-    button.innerHTML = `■ ${originalText}`;
+    button.addEventListener("click", () => {
+      let src = button.dataset.src;
+      const title = button.dataset.title;
+      const type = button.dataset.type;
+      const isOpen = !box.hasAttribute("hidden") && box.innerHTML.trim() !== "";
 
-    if (type === "youtube") {
-      const match = src.match(/(?:youtu\.be\/|youtube\.com\/(?:watch\?v=|embed\/|shorts\/))([a-zA-Z0-9_-]{11})/);
-      if (match) src = `https://www.youtube.com/embed/${match[1]}`;
-    }
+      if (isOpen) {
+        box.setAttribute("hidden", "");
+        box.innerHTML = "";
+        button.innerHTML = `▶ ${originalText}`;
+        return;
+      }
 
-    if (type === "external") {
-      box.innerHTML = `
-        <div class="external-link-box">
-          <span>🔗</span><a href="${src}" target="_blank" rel="noopener">${title}</a>
-        </div>`;
-    } else {
-      box.innerHTML = `
-        <div class="embed-wrap">
-          ${type.startsWith("video/")
-            ? `<video controls src="${src}" title="${title}"></video>`
-            : `<iframe src="${src}" title="${title}" allowfullscreen></iframe>`
-          }
-        </div>`;
-    }
-    box.removeAttribute("hidden");
+      button.innerHTML = `■ ${originalText}`;
+
+      if (type === "youtube") {
+        const match = src.match(/(?:youtu\.be\/|youtube\.com\/(?:watch\?v=|embed\/|shorts\/))([a-zA-Z0-9_-]{11})/);
+        if (match) src = `https://www.youtube.com/embed/${match[1]}`;
+      }
+
+      if (type === "external") {
+        box.innerHTML = `
+          <div class="external-link-box">
+            <span>🔗</span><a href="${src}" target="_blank" rel="noopener">${title}</a>
+          </div>`;
+      } else {
+        box.innerHTML = `
+          <div class="embed-wrap">
+            ${type.startsWith("video/")
+              ? `<video controls src="${src}" title="${title}"></video>`
+              : `<iframe src="${src}" title="${title}" allowfullscreen></iframe>`
+            }
+          </div>`;
+      }
+      box.removeAttribute("hidden");
+    });
   });
 });
 </script>
