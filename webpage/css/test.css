@@ -133,6 +133,20 @@ hr {
   min-width: 0;
 }
 
+.indent,
+.video-embed,
+.embed-wrap {
+  min-width: 0;
+  max-width: 100%;
+}
+
+.embed-wrap {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+}
+
 .column-left {
   border-right: 1px solid var(--border);
   padding-right: 12px;
