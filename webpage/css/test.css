@@ -191,11 +191,10 @@ hr {
 }
 
 .video-embed {
-  margin: 12px 0 16px;
+  display: block;
   width: 100%;
   max-width: 100%;
-  display: block;
-  box-sizing: border-box;
+  margin: 10px 0 0;
   min-width: 0;
 }
 
@@ -204,22 +203,20 @@ hr {
 }
 
 .embed-wrap {
+  position: relative;
   width: 100%;
   max-width: 100%;
-  min-width: 0;
-  aspect-ratio: 16 / 9;
-  position: relative;
+  height: 240px;
   overflow: hidden;
   border: 1px solid var(--border);
   background: #000;
   border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.45);
   box-sizing: border-box;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.45);
 }
 
 .embed-wrap iframe,
-.embed-wrap video,
-.video-embed video {
+.embed-wrap video {
   position: absolute;
   inset: 0;
   width: 100%;
