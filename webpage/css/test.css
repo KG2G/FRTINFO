@@ -118,7 +118,7 @@ hr {
   margin: 1.5em 0;
 }
 
-video {
+video:not(.embed-wrap video) {
   max-width: 100%;
   height: auto;
   display: block;
@@ -296,7 +296,6 @@ video {
 
   .embed-wrap {
     border-radius: 6px;
-    height: 200px;
   }
 
   .external-link-box {
@@ -319,9 +318,5 @@ video {
 
   .indent {
     margin-left: 12px;
-  }
-
-  .embed-wrap {
-    height: 180px;
   }
 }
