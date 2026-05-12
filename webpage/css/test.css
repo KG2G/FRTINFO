@@ -118,6 +118,12 @@ hr {
   margin: 1.5em 0;
 }
 
+video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 .indent {
   margin-left: 40px;
   min-width: 0;
@@ -193,7 +199,8 @@ hr {
 .video-embed {
   display: block;
   width: 100%;
-  margin: 10px 0 0;
+  max-width: 100%;
+  overflow: hidden;
 }
 
 .embed-wrap {
