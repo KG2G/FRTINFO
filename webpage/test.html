@@ -984,8 +984,8 @@
 
 <script>
 document.querySelectorAll("li").forEach(li => {
-  const buttons = li.querySelectorAll(".video-toggle");
-  const boxes = li.querySelectorAll(".video-embed");
+  const buttons = Array.from(li.querySelectorAll(".video-toggle")).filter(b => b.closest("li") === li);
+  const boxes = Array.from(li.querySelectorAll(".video-embed")).filter(b => b.closest("li") === li);
 
   buttons.forEach((button, i) => {
     const box = boxes[i];
@@ -1015,11 +1015,10 @@ document.querySelectorAll("li").forEach(li => {
       }
 
       if (type === "external") {
-  box.innerHTML = `
-    <ul style="margin: 4px 0; padding-left: 1.5em;">
-      <li><a href="${src}" target="_blank" rel="noopener">${title}</a></li>
-    </ul>`;
-}
+        box.innerHTML = `
+          <ul style="margin: 4px 0; padding-left: 1.5em;">
+            <li><a href="${src}" target="_blank" rel="noopener">${title}</a></li>
+          </ul>`;
       } else {
         box.innerHTML = `
           <div class="embed-wrap">
