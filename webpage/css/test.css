@@ -193,27 +193,19 @@ hr {
 .video-embed {
   display: block;
   width: 100%;
-  max-width: 100%;
   margin: 10px 0 0;
-  min-width: 0;
-  clear: both;
-}
-
-.video-embed[hidden] {
-  display: none;
 }
 
 .embed-wrap {
   position: relative;
-  width: 100%;
-  max-width: 420px;
+  width: 320px;
+  max-width: 100%;
   height: 180px;
   overflow: hidden;
   border: 1px solid var(--border);
   background: #000;
   border-radius: 8px;
   box-sizing: border-box;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.45);
 }
 
 .embed-wrap iframe,
@@ -222,13 +214,8 @@ hr {
   inset: 0;
   width: 100%;
   height: 100%;
-  display: block;
   border: 0;
-  background: #000;
-}
-
-.embed-wrap video {
-  object-fit: contain;
+  display: block;
 }
 
 .external-link-box {
