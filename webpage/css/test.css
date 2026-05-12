@@ -199,7 +199,6 @@ hr {
 .embed-wrap {
   position: relative;
   width: 100%;        /* was 320px */
-  max-width: 100%;    /* can keep or remove, redundant but harmless */
   height: 180px;
   overflow: hidden;
   border: 1px solid var(--border);
