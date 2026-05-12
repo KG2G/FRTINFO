@@ -678,21 +678,25 @@
       <div class="column column-right">
         <h1>IN DEVELOPMENT</h1>
        
-        <div>
-          <h3>AP53</h3>
-          <div class="indent">
-            <ul>
-              <li>ASDesigns is also working on a drop in variant that works in standard HK lowers.
-                <button class="video-toggle" data-title="AP53 ARC Footage" data-src="https://kg2g.github.io/FRTINFO/Footage/ARKHAP53.mp4" data-type="video/mp4">Show Footage</button>
-                <div class="video-embed" hidden></div>
-              </li>
-              <li>Parabellum Combat Systems is also working on a drop in variant that works in standard lowers.
-                <button class="video-toggle" data-title="AP53 Parabellum Footage" data-src="https://youtu.be/jw7RiAgzTFY" data-type="youtube">Show Footage</button>
-                <div class="video-embed" hidden></div>
-              </li>
-            </ul>
-          </div>
-        </div>
+<div>
+  <h3>AP53</h3>
+  <div class="indent">
+    <ul>
+      <li>
+        ASDesigns is also working on a drop in variant that works in standard HK lowers.
+        <br>
+        <button class="video-toggle" data-title="AP53 ARC Footage" data-src="https://kg2g.github.io/FRTINFO/Footage/ARKHAP53.mp4" data-type="video/mp4">Show Footage</button>
+        <div class="video-embed" hidden></div>
+      </li>
+      <li>
+        Parabellum Combat Systems is also working on a drop in variant that works in standard lowers.
+        <br>
+        <button class="video-toggle" data-title="AP53 Parabellum Footage" data-src="https://www.youtube.com/embed/jw7RiAgzTFY" data-type="youtube">Show Footage</button>
+        <div class="video-embed" hidden></div>
+      </li>
+    </ul>
+  </div>
+</div>
 
         <div>
           <h3>HK G3/91</h3>
@@ -978,31 +982,31 @@
   </div>
 
 
-  <script>
-  document.querySelectorAll(".video-toggle").forEach(button => {
-    button.addEventListener("click", () => {
-      const box = button.nextElementSibling;
-      const title = button.dataset.title;
-      const src = button.dataset.src;
-      const type = button.dataset.type;
+<script>
+document.querySelectorAll(".video-toggle").forEach(button => {
+  button.addEventListener("click", () => {
+    const box = button.nextElementSibling;
+    const title = button.dataset.title;
+    const src = button.dataset.src;
+    const type = button.dataset.type;
 
-      if (!box.hasAttribute("hidden") && box.innerHTML.trim() !== "") {
-        box.setAttribute("hidden", "");
-        box.innerHTML = "";
-        return;
-      }
+    if (!box.hasAttribute("hidden") && box.innerHTML.trim() !== "") {
+      box.setAttribute("hidden", "");
+      box.innerHTML = "";
+      return;
+    }
 
-      box.innerHTML = `
-        <div class="embed-wrap">
-          ${type.startsWith("video/") 
-            ? `<video controls src="${src}" title="${title}"></video>`
-            : `<iframe src="${src}" title="${title}" allowfullscreen></iframe>`
-          }
-        </div>
-      `;
-      box.removeAttribute("hidden");
-    });
+    box.innerHTML = `
+      <div class="embed-wrap">
+        ${type.startsWith("video/")
+          ? `<video controls src="${src}" title="${title}"></video>`
+          : `<iframe src="${src}" title="${title}" allowfullscreen></iframe>`
+        }
+      </div>
+    `;
+    box.removeAttribute("hidden");
   });
+});
 </script>
 
   
