@@ -1004,7 +1004,7 @@ document.querySelectorAll(".video-toggle").forEach(button => {
     button.innerHTML = `■ ${originalText}`;
 
     if (type === "youtube") {
-      const match = src.match(/(?:youtu\.be\/|youtube\.com\/(?:watch\?v=|embed\/))([a-zA-Z0-9_-]{11})/);
+      const match = src.match(/(?:youtu\.be\/|youtube\.com\/(?:watch\?v=|embed\/|shorts\/))([a-zA-Z0-9_-]{11})/);
       if (match) src = `https://www.youtube.com/embed/${match[1]}`;
     }
 
@@ -1049,30 +1049,28 @@ document.querySelectorAll(".video-toggle").forEach(button => {
     border: 0;
     display: block !important;
   }
-
   .video-toggle {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  margin: 6px 0;
-  padding: 6px 12px;
-  background: transparent;
-  border: 1px solid #373b41;
-  border-radius: 4px;
-  color: #81a2be;
-  font: inherit;
-  font-size: 0.9em;
-  font-weight: 600;
-  cursor: pointer;
-  transition: background 0.2s, color 0.2s, border-color 0.2s;
-}
-
-.video-toggle:hover {
-  background: #81a2be;
-  color: #1d1f21;
-  border-color: #81a2be;
-}
-  
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 6px !important;
+    margin: 6px 0 !important;
+    padding: 6px 12px !important;
+    background: transparent !important;
+    border: 1px solid #373b41 !important;
+    border-radius: 4px !important;
+    color: #81a2be !important;
+    font-size: 0.9em !important;
+    font-weight: 600 !important;
+    cursor: pointer !important;
+    transition: background 0.2s, color 0.2s, border-color 0.2s !important;
+    box-shadow: none !important;
+  }
+  .video-toggle:hover {
+    background: #81a2be !important;
+    color: #1d1f21 !important;
+    border-color: #81a2be !important;
+    transform: none !important;
+  }
 </style>
 
   
