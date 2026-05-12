@@ -977,56 +977,34 @@
     </div>
   </div>
 
+
   <script>
-    function youtubeId(url) {
-      try {
-        const u = new URL(url);
-        if (u.hostname.includes('youtu.be')) return u.pathname.replace('/', '');
-        if (u.searchParams.get('v')) return u.searchParams.get('v');
-      } catch (e) {}
-      return url.split('/').pop();
-    }
+  document.querySelectorAll(".video-toggle").forEach(button => {
+    button.addEventListener("click", () => {
+      const box = button.nextElementSibling;
+      const title = button.dataset.title;
+      const src = button.dataset.src;
+      const type = button.dataset.type;
 
-    document.querySelectorAll('.video-toggle').forEach((btn) => {
-      btn.addEventListener('click', () => {
-        const box = btn.nextElementSibling;
-        const src = btn.dataset.src;
-        const type = btn.dataset.type || 'video/mp4';
-        const title = btn.dataset.title || 'Footage';
-        const isOpen = !box.hidden;
+      if (!box.hasAttribute("hidden") && box.innerHTML.trim() !== "") {
+        box.setAttribute("hidden", "");
+        box.innerHTML = "";
+        return;
+      }
 
-        if (!box.dataset.loaded) {
-          if (type === 'youtube' || src.includes('youtu')) {
-            const id = youtubeId(src);
-            box.innerHTML = `
-              <div class="embed-wrap">
-                <iframe src="https://www.youtube.com/embed/${id}"
-                        title="${title}"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen></iframe>
-              </div>`;
-          } else if (type === 'external') {
-            box.innerHTML = `
-              <div class="external-link-box">
-                <a href="${src}" target="_blank" rel="noopener">${title}</a>
-              </div>`;
-          } else {
-            box.innerHTML = `
-              <video controls playsinline>
-                <source src="${src}" type="${type}">
-                Your browser does not support the video tag.
-              </video>`;
+      box.innerHTML = `
+        <div class="embed-wrap">
+          ${type.startsWith("video/") 
+            ? `<video controls src="${src}" title="${title}"></video>`
+            : `<iframe src="${src}" title="${title}" allowfullscreen></iframe>`
           }
-          box.dataset.loaded = '1';
-        }
-
-        box.hidden = isOpen;
-        btn.textContent = isOpen ? 'Show Footage' : 'Hide Footage';
-        if (type === 'external' && isOpen) {
-          btn.textContent = 'Show Link';
-        }
-      });
+        </div>
+      `;
+      box.removeAttribute("hidden");
     });
-  </script>
+  });
+</script>
+
+  
 </body>
 </html>
