@@ -984,19 +984,25 @@
 
 <script>
 document.querySelectorAll(".video-toggle").forEach(button => {
+  const originalText = button.textContent.trim();
+  button.innerHTML = `▶ ${originalText}`;
+
   button.addEventListener("click", () => {
     const box = button.nextElementSibling;
     const title = button.dataset.title;
     let src = button.dataset.src;
     const type = button.dataset.type;
+    const isOpen = !box.hasAttribute("hidden") && box.innerHTML.trim() !== "";
 
-    if (!box.hasAttribute("hidden") && box.innerHTML.trim() !== "") {
+    if (isOpen) {
       box.setAttribute("hidden", "");
       box.innerHTML = "";
+      button.innerHTML = `▶ ${originalText}`;
       return;
     }
 
-    // Convert any YouTube URL format to embed
+    button.innerHTML = `■ ${originalText}`;
+
     if (type === "youtube") {
       const match = src.match(/(?:youtu\.be\/|youtube\.com\/(?:watch\?v=|embed\/))([a-zA-Z0-9_-]{11})/);
       if (match) src = `https://www.youtube.com/embed/${match[1]}`;
