@@ -22,7 +22,6 @@ html, body {
   line-height: 1.6;
 }
 
-/* Centered content container like a thread */
 .page {
   max-width: 1400px;
   margin: 32px auto;
@@ -54,12 +53,10 @@ p {
   margin: 0.5em 0;
 }
 
-/* Lists */
 ul, ol {
   padding-left: 1.5em;
 }
 
-/* Code blocks (fenced Markdown) */
 pre {
   background: #1c1e22;
   border: 1px solid var(--border);
@@ -81,7 +78,6 @@ pre code {
   padding: 0;
 }
 
-/* Blockquotes */
 blockquote {
   border-left: 3px solid var(--accent-green);
   margin: 0.8em 0;
@@ -90,7 +86,6 @@ blockquote {
   background: rgba(0, 0, 0, 0.25);
 }
 
-/* Tables */
 table {
   border-collapse: collapse;
   width: 100%;
@@ -110,7 +105,6 @@ tr:nth-child(even) td {
   background: #22252a;
 }
 
-/* Images */
 img {
   max-width: 100%;
   height: auto;
@@ -118,19 +112,16 @@ img {
   display: block;
 }
 
-/* Horizontal rule */
 hr {
   border: 0;
   border-top: 1px solid var(--border);
   margin: 1.5em 0;
 }
 
-/* Indent helper */
 .indent {
   margin-left: 40px;
 }
 
-/* Two-column layout for Released / In Development */
 .two-columns {
   display: flex;
   gap: 24px;
@@ -142,7 +133,6 @@ hr {
   min-width: 0;
 }
 
-/* vertical line between sections */
 .column-left {
   border-right: 1px solid var(--border);
   padding-right: 12px;
@@ -159,7 +149,6 @@ hr {
   text-decoration: underline;
 }
 
-/* Video toggle button - theme matched */
 .video-toggle {
   display: inline-flex;
   align-items: center;
@@ -200,7 +189,6 @@ hr {
   outline-offset: 2px;
 }
 
-/* Video embedding */
 .video-embed {
   margin: 12px 0 16px;
   width: 100%;
@@ -210,11 +198,13 @@ hr {
   min-width: 0;
 }
 
-/* Responsive video wrapper */
+.video-embed[hidden] {
+  display: none;
+}
+
 .embed-wrap {
   width: 100%;
   max-width: 100%;
-  box-sizing: border-box;
   min-width: 0;
   aspect-ratio: 16 / 9;
   position: relative;
@@ -223,6 +213,7 @@ hr {
   background: #000;
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.45);
+  box-sizing: border-box;
 }
 
 .embed-wrap iframe,
@@ -237,11 +228,10 @@ hr {
   background: #000;
 }
 
-.video-embed video {
+.embed-wrap video {
   object-fit: contain;
 }
 
-/* External link box */
 .external-link-box {
   padding: 12px 16px;
   border: 1px solid var(--border);
@@ -266,7 +256,6 @@ hr {
   margin: 0;
 }
 
-/* MOBILE: stack columns and keep videos usable */
 @media (max-width: 768px) {
   .page {
     margin: 16px auto;
