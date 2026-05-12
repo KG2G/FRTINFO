@@ -72,6 +72,24 @@
               <li>Grey Market Research has super safety sets for AR-10.
                 <button class="video-toggle" data-title="AR-10 Footage" data-src="https://kg2g.github.io/FRTINFO/Footage/AR308.mp4" data-type="video/mp4">Show Footage</button>
                 <div class="video-embed" hidden></div>
+                <div class="item">
+  <button class="dropdown-btn" onclick="toggleDropdown('links-1')">
+    Weblinks
+  </button>
+
+  <div id="links-1" class="dropdown-content" style="display:none;">
+    <a href="https://example.com" target="_blank">Example Link 1</a>
+    <a href="https://example.org" target="_blank">Example Link 2</a>
+    <a href="https://example.net" target="_blank">Example Link 3</a>
+  </div>
+</div>
+
+<script>
+  function toggleDropdown(id) {
+    const el = document.getElementById(id);
+    el.style.display = el.style.display === "none" ? "block" : "none";
+  }
+</script>
               </li>
               <li><span class="note">In development by Partisan Triggers</span></li>
               <li><span class="note">In development by Atrius</span></li>
