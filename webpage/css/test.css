@@ -118,12 +118,6 @@ hr {
   margin: 1.5em 0;
 }
 
-video:not(.embed-wrap video) {
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
-
 .indent {
   margin-left: 40px;
   min-width: 0;
@@ -220,11 +214,11 @@ video:not(.embed-wrap video) {
 .embed-wrap video {
   position: absolute;
   inset: 0;
-  width: 100%;
-  height: 100%;
+  width: 100% !important;
+  height: 100% !important;
+  max-width: 100% !important;
   border: 0;
   display: block;
-  max-width: 100%;
 }
 
 .external-link-box {
