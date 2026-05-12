@@ -120,6 +120,7 @@ hr {
 
 .indent {
   margin-left: 40px;
+  min-width: 0;
 }
 
 .two-columns {
@@ -131,20 +132,6 @@ hr {
 .column {
   flex: 1 1 0;
   min-width: 0;
-}
-
-.indent,
-.video-embed,
-.embed-wrap {
-  min-width: 0;
-  max-width: 100%;
-}
-
-.embed-wrap {
-  position: relative;
-  width: 100%;
-  aspect-ratio: 16 / 9;
-  overflow: hidden;
 }
 
 .column-left {
