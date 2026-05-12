@@ -1015,10 +1015,11 @@ document.querySelectorAll("li").forEach(li => {
       }
 
       if (type === "external") {
-        box.innerHTML = `
-          <div class="external-link-box">
-            <span>🔗</span><a href="${src}" target="_blank" rel="noopener">${title}</a>
-          </div>`;
+  box.innerHTML = `
+    <ul style="margin: 4px 0; padding-left: 1.5em;">
+      <li><a href="${src}" target="_blank" rel="noopener">${title}</a></li>
+    </ul>`;
+}
       } else {
         box.innerHTML = `
           <div class="embed-wrap">
