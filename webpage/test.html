@@ -1174,62 +1174,52 @@
   </div>
 
 <script>
-document.querySelectorAll(".video-toggle").forEach(button => {
-  // Find the closest li, or fall back to the parent element
-  const container = button.closest("li") || button.parentElement;
-  
-  // Get all buttons and boxes in this container that belong directly to it
-  const buttons = Array.from(container.querySelectorAll(".video-toggle")).filter(b => (b.closest("li") || b.parentElement) === container);
-  const boxes = Array.from(container.querySelectorAll(".video-embed")).filter(b => (b.closest("li") || b.parentElement) === container);
-  
-  const i = buttons.indexOf(button);
-  const box = boxes[i];
-  if (!box) return;
-
-  const originalText = button.textContent.trim();
-  button.innerHTML = `▶ ${originalText}`;
-
-  button.addEventListener("click", () => {
-    let src = button.dataset.src;
-    const title = button.dataset.title;
-    const type = button.dataset.type;
-    const isOpen = !box.hasAttribute("hidden") && box.innerHTML.trim() !== "";
-
-    if (isOpen) {
-      box.setAttribute("hidden", "");
-      box.innerHTML = "";
-      button.innerHTML = `▶ ${originalText}`;
-      return;
-    }
-
-    button.innerHTML = `■ ${originalText}`;
-
-    if (type === "youtube") {
-      const match = src.match(/(?:youtu\.be\/|youtube\.com\/(?:watch\?v=|embed\/|shorts\/))([a-zA-Z0-9_-]{11})/);
-      if (match) src = `https://www.youtube.com/embed/${match[1]}`;
-    }
-
-    if (type === "external") {
-      box.innerHTML = `
-        <ul style="margin: 4px 0; padding-left: 1.5em;">
-          <li><a href="${src}" target="_blank" rel="noopener">${src}</a></li>
-        </ul>`;
-    } else if (type === "linklist") {
-      const links = JSON.parse(button.dataset.links);
-      box.innerHTML = `
-        <ul style="margin: 4px 0; padding-left: 1.5em;">
-          ${links.map(l => `<li><a href="${l.url}" target="_blank" rel="noopener">${l.label}</a></li>`).join("")}
-        </ul>`;
-    } else {
-      box.innerHTML = `
-        <div class="embed-wrap">
-          ${type.startsWith("video/")
-            ? `<video controls src="${src}" title="${title}"></video>`
-            : `<iframe src="${src}" title="${title}" allowfullscreen></iframe>`
-          }
-        </div>`;
-    }
-    box.removeAttribute("hidden");
+document.querySelectorAll("li").forEach(li => {
+  const buttons = Array.from(li.querySelectorAll(".video-toggle")).filter(b => b.closest("li") === li);
+  const boxes = Array.from(li.querySelectorAll(".video-embed")).filter(b => b.closest("li") === li);
+  buttons.forEach((button, i) => {
+    const box = boxes[i];
+    if (!box) return;
+    const originalText = button.textContent.trim();
+    button.innerHTML = `▶ ${originalText}`;
+    button.addEventListener("click", () => {
+      let src = button.dataset.src;
+      const title = button.dataset.title;
+      const type = button.dataset.type;
+      const isOpen = !box.hasAttribute("hidden") && box.innerHTML.trim() !== "";
+      if (isOpen) {
+        box.setAttribute("hidden", "");
+        box.innerHTML = "";
+        button.innerHTML = `▶ ${originalText}`;
+        return;
+      }
+      button.innerHTML = `■ ${originalText}`;
+      if (type === "youtube") {
+        const match = src.match(/(?:youtu\.be\/|youtube\.com\/(?:watch\?v=|embed\/|shorts\/))([a-zA-Z0-9_-]{11})/);
+        if (match) src = `https://www.youtube.com/embed/${match[1]}`;
+      }
+      if (type === "external") {
+        box.innerHTML = `
+          <ul style="margin: 4px 0; padding-left: 1.5em;">
+            <li><a href="${src}" target="_blank" rel="noopener">${src}</a></li>
+          </ul>`;
+      } else if (type === "linklist") {
+        const links = JSON.parse(button.dataset.links);
+        box.innerHTML = `
+          <ul style="margin: 4px 0; padding-left: 1.5em;">
+            ${links.map(l => `<li><a href="${l.url}" target="_blank" rel="noopener">${l.label}</a></li>`).join("")}
+          </ul>`;
+      } else {
+        box.innerHTML = `
+          <div class="embed-wrap">
+            ${type.startsWith("video/")
+              ? `<video controls src="${src}" title="${title}"></video>`
+              : `<iframe src="${src}" title="${title}" allowfullscreen></iframe>`
+            }
+          </div>`;
+      }
+      box.removeAttribute("hidden");
+    });
   });
 });
 </script>
