@@ -1289,7 +1289,7 @@ document.querySelectorAll("li").forEach(li => {
         const links = JSON.parse(button.dataset.links);
         box.innerHTML = `
           <ul style="margin: 4px 0; padding-left: 1.5em;">
-            ${links.map(l => `<li><a href="${l.url}" target="_blank" rel="noopener">${l.label}</a></li>`).join("")}
+            ${links.map(l => `<li><a href="${l.url}" target="_blank" rel="noopener">${l.url}</a></li>`).join("")}
           </ul>`;
       } else {
         box.innerHTML = `
