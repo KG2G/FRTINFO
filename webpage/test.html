@@ -20,7 +20,7 @@
           <br>
           <br>
           - Super Safety
-          <li style="list-style: none;">
+          <li class="no-bullet">
             <button class="video-toggle"
               data-type="linklist"
               data-title="Recommended Vendors"
@@ -1276,6 +1276,9 @@ document.querySelectorAll("li").forEach(li => {
     color: #1d1f21 !important;
     border-color: #81a2be !important;
     transform: none !important;
+  }
+  li.no-bullet {
+    list-style-type: "▸ ";
   }
 </style>
 
